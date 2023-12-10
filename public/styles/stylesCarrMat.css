@@ -1,0 +1,101 @@
+/* ----------------------- ESTILOS GENERALES DE PAGINA INICIO ----------------------- */
+body {
+    background:  #e7f2ff;
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif; /* Cambia "Arial" por el nombre de la fuente que desees */
+}
+/* ------------------------------------------- IMAGEN BANNER------------------------------------------- */
+.banner-container {
+    width: 100%;
+    text-align: center; /* Centra la imagen horizontalmente */
+    background-color: #f2f2f2; /* Color de fondo del contenedor, puedes cambiarlo a tu elección */
+    padding: 0px 0; /* Añade espaciado alrededor de la imagen */
+}
+
+.banner-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+/*------------------------------------------------BARRA DE BUSQUEDA----------------------------------------------------*/
+/* Estilos para la barra de búsqueda */
+.search-container {
+    position: absolute;
+    margin-top: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Estilos para el input de búsqueda */
+#search-input {
+    padding: 5px;
+    border: none;
+    width: 25%; /* Ajusta el valor según el ancho deseado */
+}
+
+/* Estilos para el botón de búsqueda */
+#search-button {
+    padding: 5px 10px;
+    background-color: #007bff; /* Color de fondo del botón, puedes cambiarlo */
+    border: none;
+    color: #fff; /* Color de texto del botón */
+    cursor: pointer;
+}
+
+/*------------------------------------------STILO PARA LAS SECCIONES------------------------------------------------*/
+/* Agrega estos estilos al final de tu archivo CSS actual */
+.contenedor-secciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas */
+    padding: 40px;
+}
+.anio {
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde de 1 píxel sólido en color gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px 10px 10px 0; /* Margen superior, derecho, inferior e izquierdo de 10 píxeles */
+    padding: 10px; /* Espaciado interior de 10 píxeles */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+h2,h1{
+    text-align: center; /* Alinear el título al centro */
+}
+
+
+/*------------------------------------------ Estilos para el enlace "Ir arriba"-------------------------------------- */
+#ir-arriba {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px; /* Ajustar la distancia desde la parte inferior */
+    right: 20px; /* Ajustar la distancia desde la parte derecha */
+    text-decoration: none;
+    z-index: 9999; /* Asegurarse de que esté en la parte superior */
+    display: none; /* Ocultar inicialmente */
+}
+/* Mostrar el enlace cuando el usuario haya desplazado un poco hacia abajo */
+#ir-arriba.mostrar {display: block;}
+#ir-arriba img {
+    width: 32px; /* Ancho deseado de la imagen */
+    height: 32px; /* Alto deseado de la imagen */
+}
+
+/* Estilos para las secciones en pantallas más pequeñas */
+@media screen and (max-width: 700px) {
+    .contenedor-secciones {
+        grid-template-columns: repeat(2, 1fr); /* Cambia a dos columnas en pantallas más pequeñas */
+    }
+    h2,h1{
+        font-size: 15px;
+    }
+    ul{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,303 @@
+/*--------------------------------------------ENCABEZADO---------------------------------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Color con opacidad */
+    padding: 14px;
+    color: white;
+    text-align: center;
+    z-index: 2;
+    /*margin-bottom: 50px; Agrega un margen inferior de 20px al encabezado */
+}
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#logo1{
+    display: inline-block;
+    vertical-align: middle;
+}
+#logo1 img{
+    height: 40px; /* Ajustar el tamaño del logo según sea necesario */
+}
+
+/* ------------------------------------------------MENU-----------------------------------------------------------*/
+/* Estilos generales para el menú */
+#mainav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10px; /* Ajusta la posición vertical del menú */
+    background-color: rgba(43, 42, 42, 0); /* Color con opacidad */
+    color: #fff;
+    z-index: 2;
+    margin-left: 250px; /* Agrega margen lateral desde el lado izquierdo */
+    
+}
+#mainav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0; /* Elimina el margen superior */
+    justify-content: space-around;
+    
+}
+#mainav li {
+    display: inline-block;
+    position: relative;
+    
+}
+#mainav li a {
+    display: block;
+    font-size: 15px; /* Tamaño de fuente */
+    font-family: 'Poppins', sans-serif; /* Tipo de fuente */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:normal;
+}
+/* Estilos para el menú desplegable */
+#mainav ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    background-color: #87878781;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s, visibility 0.3s;
+}
+#mainav li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+}
+#mainav ul ul li {
+    display: block;
+    width: 180px;
+}
+#mainav ul ul a {
+    padding: 10px 20px;
+}
+/* Estilos para los submenús */
+#mainav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+/* Estilos para el enlace activo (inicio)*/
+#mainav li.active a {
+    color: #ffffff;
+}
+/* Estilos para enlaces en hover */
+#mainav li a:hover {
+    color: #b5b1b14d;
+    background-color: transparent; /* Hacer el fondo transparente */
+    border: 1px solid #ffffff; /* Agregar un borde al contorno */
+}
+/* ----------------------- ESTILOS GENERALES DE PAGINA INICIO ----------------------- */
+body {
+    background-color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif; 
+    margin: 0;
+    padding: 0;
+}   
+h1{
+    padding: 2%;
+    text-align: center;
+}
+h2{
+    padding: 0%;
+    text-align: center;
+}
+h3{
+    margin: auto;
+    padding: 2%;
+}
+.rectangulo1 {
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #b1afaf;
+    display: flex; /* Usamos flexbox para centrar contenido verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 80px;
+}
+.rectangulo {
+    margin-top: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #091b2f;
+    display: flex; /* Usamos flexbox para centrar contenido verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 80px;
+}
+
+/* Estilo para el h1 dentro del rectángulo */
+.rectangulo h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+/* ------------------------------------------- VIDEO Y TEXTO SOBRE EL VIDEO ------------------------------------------- */
+.banner-container {
+    position: relative;
+    height: 450px;
+    overflow: hidden;
+}
+
+#banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 30%; /* Alinea verticalmente el centro del texto */
+    left: 50%; /* Alinea horizontalmente el centro del texto */
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgb(18, 68, 160);
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+/* Estilo para cada servicio */
+.servicio {
+    display: inline-block;
+    width: 200px; /* Ancho de cada servicio */
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Color de fondo del servicio */
+    border-radius: 20px; /* Borde redondeado del botón */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    
+}
+#nuestros-servicios h2 {
+    color: #04387b;
+    letter-spacing: 10px; /* Ajusta el valor según la cantidad de espaciado deseado */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;   
+}
+
+/* Estilo para los iconos de servicio */
+.servicio-icon img {
+    max-width: 100%; /* Ajustar el tamaño de la imagen al contenedor */
+}
+
+/* Estilo para el título del servicio */
+.servicio h3 {
+    font-size: 12px; /* Tamaño del título */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo para la descripción del servicio */
+.servicio p {
+    font-size: 14px; /* Tamaño del texto de descripción */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+@media screen and (max-width: 400px) {
+    .servicio {
+        display: block;
+        margin: 20px auto; /* Agrega un margen superior e inferior de 20px y establece el margen izquierdo y derecho a "auto" */
+    }
+}
+/* ---------------------------------------BARRA DE BUSQUEDA----------------------------------------------- */
+
+.barrabusqueda {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buscarAsignatura {
+    text-align: center;
+    font-size: 1em;
+    width: 80%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    padding-bottom: 25px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    margin-top: 20px;
+    /* font-size: 100%; */
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    grid-row-gap: 20px;
+    
+}
+p{
+    line-height: 1.5;
+}
+/*------------------------------------------------PIE DE PAGINA--------------------------------------------------*/
+.footer-container {
+    background-color: #333; /* Cambiar al color de fondo deseado */
+    padding: 20px 0;
+}
+.footer-content {
+    background-color: #091b2f;/* Cambiar al color de fondo negro deseado */
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer-section {
+    flex: 1;
+    max-width: 300px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+/* Estilos para enlaces en el pie de página */
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section a:hover {
+    color: #f39c12; /* Cambia el color al pasar el ratón por encima */
+}
+/* Estilos para las imágenes de redes sociales en el pie de página */
+.social-icon img {
+    width: 40px; /* Ajusta el ancho según tus preferencias */
+    height: 40px; /* Ajusta la altura según tus preferencias */
+}
+/* Estilos para el aviso de derechos de autor */
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #040417;
+}
+.footer-bottom p{
+    margin: 0;
+    color: aliceblue;
+}
+
+/* Mostrar el botón de menú solo en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    #mainav ul {
+        display: none; /* Ocultar las opciones del menú en pantallas pequeñas */
+    }
+    #menu-button {
+        display: block; /* Mostrar el botón de menú en pantallas pequeñas */
+    }
+}

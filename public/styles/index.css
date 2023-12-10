@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* ----------------------- ESTILOS GENERALES DE PAGINA INICIO ----------------------- */
+body {
+    font-family:'Josefin Sans', sans-serif; /* Aplica la fuente Open Sans */
+    margin: 0;
+    padding: 0;
+}   
+h1{
+    text-align: center;
+}
+#Formulario{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+/* ------------------------------------------- VIDEO Y TEXTO SOBRE EL VIDEO ------------------------------------------- */
+.banner-container {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+#banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 60%; /* Alinea verticalmente el centro del texto */
+    left: 50%; /* Alinea horizontalmente el centro del texto */
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 700px) {
+    #banner-video{
+        width: 200%;
+        height: auto;
+    }
+    .banner-text{
+        font-size: 9px;
+        top: 40%; /* Alinea verticalmente el centro del texto */
+    }
+}
+@media screen and (max-width: 1200px) {
+
+}
+/* ----------------------- QUIENES SOMOS -RECUADRO ----------------------- */
+/* Estilo para el contenedor con imagen de fondo */
+.container {
+    background-image: url('../img/about_us.png'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Escala la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Sombra con valores personalizables */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.video-section, .text-section {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px; /* Tamaño de fuente en píxeles */
+    text-align: center; /* Centra el contenido horizontalmente */
+    flex: 1;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.text-section h3 {
+    color: #040417;;
+    font-size: 25px;
+    text-align: center;
+}
+
+.video-section video {
+    position: relative; /* Restablece la posición del video a relativa */
+    z-index: 1; /* Valor de z-index para colocar el video delante del rectángulo */
+}
+/* Estilo para el botón "Consultanos" */
+.consult-button {
+    background-color: #ffffff; /* Color de fondo del botón */
+    color: #1a263d; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón (ajusta según sea necesario) */
+    border: 3px solid #020e2a; /* Ancho, estilo y color del borde */
+    border-radius: 20px; /* Borde redondeado del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+/* Cambia el color del botón al pasar el mouse */
+.consult-button:hover {
+    background-color: #313f4fca; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Para dispositivos móviles con ancho menor a 400px, muestra primero el video y luego el texto */
+@media screen and (max-width: 700px) {
+    .container {
+        flex-direction: column; /* Cambia la dirección del flex container a columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        padding: 10px; /* Aumenta el espacio interno */
+        margin-top: 10px; /* Ajusta el margen superior a 10px */
+    }
+
+    .video-section {
+        order: 1; /* Cambia el orden del video a 1 (primero) */
+    }
+
+    .text-section {
+        order: 2; /* Cambia el orden del texto a 2 (segundo) */
+    }
+
+    /* Estilos adicionales para texto en dispositivos móviles con ancho menor a 400px */
+    .text-section p {
+        font-size: 12px; /* Ajusta el tamaño de fuente del texto */
+        margin-top: 5px; /* Ajusta el margen superior */
+    }
+
+    /* Estilos adicionales para video en dispositivos móviles con ancho menor a 400px */
+    .video-section video {
+        max-width: 100%; /* Ajusta el ancho máximo del video al contenedor */
+        height: auto; /* Mantiene la relación de aspecto del video */
+    }
+}
+
+/* Para dispositivos móviles con ancho entre 400px y 926px */
+@media screen and (min-width: 701px) and (max-width: 926px) {
+    /* Estilos para mantener el tamaño de fuente y dimensiones del video */
+    .text-section p {
+        font-size: 14px; /* Tamaño de fuente para el rango de 400px a 926px */
+        margin-top: 10px; /* Ajusta el margen superior */
+    }
+
+    .video-section video {
+        max-width: 100%; /* Ajusta el ancho máximo del video al contenedor */
+        height: auto; /* Mantiene la relación de aspecto del video */
+    }
+}
+
+
+/* -----------------------------------------------------------Estilo para la sección "Nuestros Servicios----------------------*/
+#nuestros-servicios {
+    margin-top: 40px;
+    background-color: rgba(113, 121, 229, 0.364); /* Color de fondo con transparencia */
+    padding: 40px; /* Espaciado interno */
+    text-align: center; /* Centrar el contenido horizontalmente */
+    
+}
+
+/* Estilo para cada servicio */
+.servicio {
+    display: inline-block;
+    width: 200px; /* Ancho de cada servicio */
+    padding: 20px;
+    margin: 20px;
+    background-color: white; /* Color de fondo del servicio */
+    border-radius: 20px; /* Borde redondeado del botón */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    
+}
+#nuestros-servicios h2 {
+    color: #04387b;
+    letter-spacing: 10px; /* Ajusta el valor según la cantidad de espaciado deseado */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;   
+}
+
+/* Estilo para los iconos de servicio */
+.servicio-icon img {
+    max-width: 100%; /* Ajustar el tamaño de la imagen al contenedor */
+}
+
+/* Estilo para el título del servicio */
+.servicio h3 {
+    font-size: 12px; /* Tamaño del título */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo para la descripción del servicio */
+.servicio p {
+    font-size: 14px; /* Tamaño del texto de descripción */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+@media screen and (max-width: 400px) {
+    .servicio {
+        display: block;
+        margin: 20px auto; /* Agrega un margen superior e inferior de 20px y establece el margen izquierdo y derecho a "auto" */
+    }
+}
+
+/* -------------------------------------------------------- PASOS ------------------------------------------------------------ */
+/* Estilos para la sección de Pasos */
+#pasos {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila si no caben en una sola fila */
+    justify-content: space-between; /* Espaciado equitativo entre los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    margin-left: 40px;
+}
+
+/* Estilos para cada paso */
+.paso {
+    flex-basis: calc(50% - 20px); /* Ancho del 50% menos el espaciado entre elementos */
+    margin-bottom: 70px; /* Espaciado inferior entre los pasos */
+    display: flex; /* Utiliza flexbox para alinear contenido verticalmente */
+    align-items: center; /* Alinea verticalmente el contenido */
+}
+
+/* Estilos para las imágenes de los pasos */
+.paso-img {
+    max-width: 140px; /* Ajusta el tamaño máximo de la imagen al ancho deseado */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+}
+/* Estilos para el texto de los pasos */
+.paso-content1,.paso-content3 {
+    margin-right: 120px;
+}
+.paso-content2,.paso-content4 {
+    margin-left: 120px; /* Margen izquierdo para separar el texto de la imagen */
+}
+.paso p{
+    font-size: 20px; /* Tamaño del texto de descripción */
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+.rectangulo {
+    margin-top: 40px;
+    width: 100%;
+    height: 100px;
+    background-color: #091b2f;
+    display: flex; /* Usamos flexbox para centrar contenido verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    margin-bottom: 80px;
+}
+
+/* Estilo para el h1 dentro del rectángulo */
+.rectangulo h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.Imagencentro {
+    position: absolute; /* Establece la posición absoluta para poder ajustar la ubicación */
+    top: 1610px; /* Ajusta la posición vertical desde la parte superior */
+    left: 470px; /* Ajusta la posición horizontal desde la izquierda */
+    width: 25%; /* Ancho al 100% del contenedor (la sección de pasos) */
+    height: auto; /* Ajustar la altura automáticamente para mantener la relación de aspecto */
+    z-index: -1;
+}
+
+/* Estilos para la sección de Pasos en dispositivos móviles con ancho menor a 430px */
+@media (max-width: 700px) {
+    .Imagencentro {
+        display: none; /* Oculta la imagen en dispositivos móviles */
+    }
+    #pasos {
+        flex-direction: column; /* Cambia la dirección del flujo a columna */
+    }
+    .paso {
+        flex-basis: 100%; /* Establece el ancho al 100% para ocupar toda la pantalla */
+        margin-bottom: 30px; /* Reduzca el espacio inferior entre los pasos */
+    }
+    .paso-content1,
+    .paso-content2,
+    .paso-content3,
+    .paso-content4 {
+        margin: 0; /* Elimina los márgenes laterales */
+    }
+    .paso p {
+        font-size: 14px; /* Tamaño de fuente más pequeño para dispositivos móviles */
+        text-align: center; /* Alinea el texto al centro */
+        margin: 0; /* Elimina los márgenes laterales */
+    }
+    .paso-img {
+        max-width: 100px; /* Tamaño más pequeño para las imágenes de los pasos */
+        height: auto; /* Mantiene la relación de aspecto de la imagen */
+    }
+}
+/* Para dispositivos móviles con ancho entre 400px y 926px */
+@media screen and (min-width: 701px) and (max-width: 1190px) {
+    .Imagencentro {
+        display: none; /* Oculta la imagen en dispositivos móviles */
+    }
+    .paso p{
+        font-size: 15px; /* Tamaño del texto de descripción */
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .paso-content1,.paso-content3 {
+        margin-right: 10px;
+    }
+    .paso-content2,.paso-content4 {
+        margin-left: 10px; /* Margen izquierdo para separar el texto de la imagen */
+    }
+}
+
+
+/* -------------------------------FORMULARIO BOTON---------------------------------*/
+.popup {
+    font-family: 'Lilita One', sans-serif;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Oculta el contenido que excede el área */
+    z-index: 3;
+}
+.popup-section {
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical cuando el contenido excede */
+    max-height: 80%; /* Establece una altura máxima para la sección */
+}
+.popup-content {
+    text-align: center;
+    position: relative;
+}
+
+.popup-header {
+    color: #1467d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#popupButton {
+    display: block; /* Cambia el botón a un elemento de bloque para que esté en una línea separada */
+    margin: 20px auto; /* Agrega un margen superior e inferior de 20px y establece el margen izquierdo y derecho a "auto" */
+    background-color: #091c35; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón según sea necesario */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Agrega un borde redondeado al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: block;
+}
+
+.close-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-icon {
+    font-size: 18px;
+    line-height: 1;
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #172c43;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#custom-textarea {
+    width: 650px;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-size: 14px;
+    /* Otros estilos que desees agregar */
+}
+/* Estilos generales para el input de tipo file */
+input[type="file"] {
+    background-color: #aac1f9;
+    color: #6b6d71;
+    border: 1px solid #ffffff;
+    padding: 50px;
+    width: 450px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+/* Estilos para el formulario en dispositivos móviles */
+@media screen and (max-width: 1200px) {
+    .popup {
+        width: 90%; /* Ancho máximo del formulario */
+        height: auto; /* Altura automática para acomodar el contenido */
+        max-height: 80%; /* Altura máxima del formulario */
+    }
+    .popup-section {
+        max-height: 70vh; /* Cambia la altura máxima para adaptarse mejor a pantallas móviles */
+        overflow-y: auto;
+    }
+}

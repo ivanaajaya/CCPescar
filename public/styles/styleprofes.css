@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ecf8fc;
+    height: 100vh;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------- baner------------------------------------------- */
+.banner-container {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+/* BARRA DE BUSQUEDA */
+
+.barrabusqueda {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.buscarAsignatura {
+    text-align: center;
+    font-size: 1em;
+    width: 40%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    padding-bottom: 15px;
+    font-size: 42px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    grid-row-gap: 20px;
+    width: 100%;
+}
+p{
+    line-height: 1.5;
+}
+/* ---------------------------------- */
+.teachers {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 30px;
+    border-radius: 25px;
+    background-color: white;
+    max-width: 1000px;
+    min-width: 1000px;
+    /* max-width: clamp(920px, 70vw, 820px);
+    min-width: 260px; */
+    min-height: 280px;
+}
+
+.teachers:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.foto {
+    flex: 1 1 230px;
+    /*para modidicar el espacio de la foto*/
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .foto img:hover{
+    transform: translateX(0) scale(1.1);
+} */
+
+/* ---------------------------------- */
+.contenido {
+    flex: 3 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 16px;
+}
+
+.contenido>h2 {
+    font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+    font-weight: 700;
+    margin-bottom: clamp(0.35rem, 2vw, 0.55rem);
+}
+
+.contenido>p {
+    font-size: clamp(0.9rem, 1.0vw, 1.0rem);
+    font-weight: 400;
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+
+/* ---------------------------------- */
+.socials {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin: 5px;
+    gap: clamp(0.4rem, 2vw, 0.8rem);
+    gap: 5px;
+}
+
+.socials li {
+    list-style: none;
+}
+
+.socials li a {
+    position: relative;
+    display: block;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.socials li a img {
+    width: 100%;/*clamp(1.5rem, 2.0vw, 2rem);*/
+    height: clamp(1.5rem, 2.0vw, 2rem);
+    stroke-width: 2px;
+}
+
+.socials li a:hover img {
+    transition: 1.2s;
+    transform: rotateY(360deg);
+}
+
+.tab-buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.tab-button{
+    background-color: #ffffff;
+    border:none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 40px;
+}
+
+
+.tab-button:hover {
+    background-color: #ecf8fc;
+}
+
+.active-tab-button{
+    background-color: #ecf8fc;
+    transform: scaleY(1.1);
+    transform-origin: bo;
+}
+
+/* Estilo para los elementos de la lista de contacto */
+.tab-contacto ul li {
+    padding: 3px; /* Ajusta el valor de padding según tus preferencias */
+    list-style: none;
+}
+
+.estacio{
+    padding: 10px;
+}

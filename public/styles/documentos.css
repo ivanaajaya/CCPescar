@@ -1,0 +1,172 @@
+/*----------------------------------------------ESTILOS GENERALES DE PAGINA (2) CARRERA----------------------------------------------*/
+.background-container {
+    display: flex;
+    flex-direction: column; /* Alinea las filas verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+
+/*******************************************ESTILOS PARA LOS DOCUMENTOS****************************************************/
+.body2 {
+    background-color: #d3d3d3b5;
+    height: 120vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0; /* Elimina el espacio de relleno */
+    position: relative;
+}
+.rectangulo {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 40px; /* Agregar margen inferior para separar los contenedores */
+}
+.documentos {
+    display: flex; /* Usar flexbox para la distribución horizontal */
+    overflow: hidden; /* Para recortar contenido que exceda el contenedor */
+    padding: 15px; /* Ajustar el espaciado interno */
+}
+.icono_documento {
+    flex: 0 0 120px;
+    margin-right: 20px;
+}
+.icono_documento img {
+    width: 90%;
+    height: auto;
+}
+.contenido_documento {
+    flex: 1;
+    overflow: hidden;
+}
+.documento-title {
+    font-size: 1rem;
+    font-weight: 400;
+    font-weight: bold; /* Agregar esta línea para hacer el título en negrita */
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Agregar estilos para la clase .ver-mas */
+.ver-archivo {
+    display: flex; /* Hacer que la etiqueta "Ver más" sea un elemento flexbox */
+    align-items: center; /* Centrar verticalmente el contenido de la etiqueta */
+    justify-content: flex-end; /* Alinear la etiqueta "Ver más" a la derecha */
+    margin-top: 10px; /* Ajustar margen superior */
+}
+/* Ajustar el tamaño de la etiqueta "Ver más" */
+.ver-archivo{
+    font-size: 0.9rem; /* Ajustar el tamaño de la fuente */
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.filtro.filtro-resumen { background-color: #2a7db4; } /* Color para los filtros de resúmenes */
+.filtro.filtro-examen { background-color: #e74c3c; } /* Color para los filtros de exámenes */
+.filtro.filtro-parciales { background-color: #f39c12; } /* Color para los filtros de parciales */
+.filtro.filtro-trabajos { background-color: #27ae60; } /* Color para los filtros de examenes */
+.filtro.filtro-todos { background-color: #34495e; } /* Color para el filtro "Mostrar todos" */
+
+/*------------------------------------------ Estilos para el enlace "Ir arriba"-------------------------------------- */
+#ir-arriba {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px; /* Ajustar la distancia desde la parte inferior */
+    right: 20px; /* Ajustar la distancia desde la parte derecha */
+    text-decoration: none;
+    z-index: 9999; /* Asegurarse de que esté en la parte superior */
+    display: none; /* Ocultar inicialmente */
+}
+/* Mostrar el enlace cuando el usuario haya desplazado un poco hacia abajo */
+#ir-arriba.mostrar {display: block;}
+#ir-arriba img {
+    width: 32px; /* Ancho deseado de la imagen */
+    height: 32px; /* Alto deseado de la imagen */
+}
+
+.mensaje-vacio{
+    text-align: center;
+    margin-top: 30px; /* Margen superior de 20 píxeles */
+    margin-bottom: 100px; /* Margen inferior de 20 píxeles */
+}
+/*-------------------------------------------------ESTILOS PARA PANTALLAS------------------------------------------------*/
+/* Estilos para los botones de filtro en pantallas grandes */
+@media (min-width: 601px) {
+    .filtro-dropdown {
+        display: none; /* Oculta el menú desplegable para pantallas grandes */
+    }
+    .filtro-buttons {
+        display: block; /* Muestra los botones para pantallas grandes */
+        margin: 20px; /* Margen con respecto a los documentos */
+    }
+    .filtro {
+        margin-top: 100px;
+        display: inline-block;
+        padding: 10px 30px; /* Alto de los filtros y largo */
+        margin-right: 0px; /* Margen lateral entre los botones */
+        background-color: #2a7db4;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .filtro:hover {
+        opacity: 0.7; /* Cambio de opacidad al pasar el mouse */
+    }
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+    .filtro-buttons {
+        display: none; /* Oculta los botones para pantallas pequeñas */
+    }
+    .filtro-dropdown {
+        display: block; /* Muestra el menú desplegable para pantallas pequeñas */
+        margin-top: 90px; /* Ajusta el margen superior del menú desplegable */
+        margin-bottom: 30px;
+        margin-left: 0px; /* Ajusta el margen lateral del menú desplegable */
+        font-size: 10px; /* Ajusta el tamaño del texto del menú desplegable */
+        border: none;
+        border-radius: 10px;
+    }
+    .filtro-content {
+        display: none; /* Oculta el contenido del menú desplegable por defecto */
+        position: absolute;
+        background-color: #2a7db4; /* Color de fondo del menú desplegable */
+        border-radius: 10px;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .filtro-toggle {
+        background-color: #2a7db4; /* Color de fondo del botón de alternar */
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .filtro-toggle:hover {
+        opacity: 0.7; /* Cambio de opacidad al pasar el mouse */
+    }
+    .filtro-content.show {
+        display: block; /* Muestra el contenido cuando se hace clic en el botón de alternar */
+    }
+    /* Resto de los estilos de los filtros dentro del menú desplegable */
+    .filtro-content .filtro {
+        padding: 10px 0;
+        text-align: center;
+    }
+    .filtro-content .filtro:hover {
+        background-color: #1b5a99; /* Cambio de color al pasar el mouse */
+    }
+}
