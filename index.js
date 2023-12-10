@@ -7,8 +7,10 @@ import morgan from 'morgan';
 // Database Connection
 import dbConn from './config/db.js';
 // Application Routers
-
-
+import carreraRoutes from "./routes/carrerasRoute.js";
+import profesorRouter from './routes/profesoresRoute.js';
+import authRouter from './routes/authRoute.js';
+import cursoRouter from './routes/cursosRoute.js';
 /** DECLARACIONES */
 // Servidor BackEnd
 const app = express();
@@ -19,18 +21,21 @@ app.engine("hbs", engine({
     defaultLayout: process.cwd()+"/views/index",
     extname: "hbs"
 }));
+
 app.set("view engine", "hbs");
 app.set('views', './views');
-
 /** IMPLEMENTACION */
 app.use(morgan('dev'));
 // Request Body Parser (Middleware)
 app.use(express.urlencoded({extended: true}));
 
-// Ruta para la raíz
-app.get('/', (req, res) => {
-    res.render('index');
-});
+// Rutas de la API
+app.use("/", authRouter);
+app.use("/carreras", carreraRoutes );
+app.use("/profesores", profesorRouter );
+app.use("/cursos", cursoRouter);
 
+// Rutas Estaticas para el Frontend
+app.use("/", express.static("public"));
 /** EJECUCION */
 app.listen(PORT, console.log(startMsg))
