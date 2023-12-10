@@ -1,0 +1,889 @@
+[{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a73"
+  },
+  "title": "LICENCIATURA EN MATEMÁTICAS",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Taller Informático",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Geometria Plana y Espacial ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Introducción al Álgebra",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Analisis Matemático I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Fisica 1",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Programación",
+          "href": ""
+        },
+        {
+          "text": "Análisis Matemático II",
+          "href": ""
+        },
+        {
+          "text": "Física 2",
+          "href": ""
+        },
+        {
+          "text": "Álgebra",
+          "href": ""
+        },
+        {
+          "text": "Probabilidad y estadistica para Matemática",
+          "href": ""
+        },
+        {
+          "text": "Cálculo Numérico",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Variable Compleja",
+          "href": ""
+        },
+        {
+          "text": "Geometría Diferencial",
+          "href": ""
+        },
+        {
+          "text": "Ecuaciones Diferenciales Ordinaria",
+          "href": ""
+        },
+        {
+          "text": "Estructuras Algebraicas 1",
+          "href": ""
+        },
+        {
+          "text": "Medida e Integración",
+          "href": ""
+        },
+        {
+          "text": "Elemento de Topologia y Cálculo Avanzado",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Cuarto año",
+      "links": [
+        {
+          "text": "Modelización Matemática",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a74"
+  },
+  "title": "PROFESORADO EN MATEMÁTICA",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Introducción a la Matemática",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Geometria Plana y Espacial ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Introducción al Álgebra",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "ALGA ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Analisis matemático I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Psicología Evolutiva",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Analisis matemático II",
+          "href": ""
+        },
+        {
+          "text": "Aritmética Elemental",
+          "href": ""
+        },
+        {
+          "text": "Tecnología Para la Educación Matemática",
+          "href": ""
+        },
+        {
+          "text": "Psicología Educacional",
+          "href": ""
+        },
+        {
+          "text": "Complementos de Análisis",
+          "href": ""
+        },
+        {
+          "text": "Estructuras Algebraicas",
+          "href": ""
+        },
+        {
+          "text": "Elementos de Cálculo Financiero",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Probabilidad y Estadística",
+          "href": ""
+        },
+        {
+          "text": "Programación",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de la Matemática",
+          "href": ""
+        },
+        {
+          "text": "Didáctica de la Matemática",
+          "href": ""
+        },
+        {
+          "text": "Fisica 1",
+          "href": ""
+        },
+        {
+          "text": "Inglés",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Cuarto año",
+      "links": [
+        {
+          "text": "Resolucíon de Problemas en Educación Matemática",
+          "href": ""
+        },
+        {
+          "text": "Historia de la Matemática",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a75"
+  },
+  "title": "LICENCIATURA EN ANÁLISIS DE SISTEMAS ",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Elementos de Programación ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Matemática para Informática ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Análisis Matemático I",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Álgebra Lineal y Geometría Analítica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Programación",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Analisis matemático II",
+          "href": ""
+        },
+        {
+          "text": "Algoritmos y Estructuras de Datos",
+          "href": ""
+        },
+        {
+          "text": "Teoría de la Computación I",
+          "href": ""
+        },
+        {
+          "text": "Teoría de la Computación II",
+          "href": ""
+        },
+        {
+          "text": "Programación Numérica",
+          "href": ""
+        },
+        {
+          "text": "Paradigmas y Lenguajes",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Probabilidades y Estadística",
+          "href": ""
+        },
+        {
+          "text": "Arquitectura de la Computadora",
+          "href": ""
+        },
+        {
+          "text": "Base de Datos I",
+          "href": ""
+        },
+        {
+          "text": "Sistemas Operativos",
+          "href": ""
+        },
+        {
+          "text": "Sistemas de Información",
+          "href": ""
+        },
+        {
+          "text": "Base de Datos II",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Cuarto año",
+      "links": [
+        {
+          "text": "Teoría de la Computación III",
+          "href": ""
+        },
+        {
+          "text": "Redes de Computadoras I",
+          "href": ""
+        },
+        {
+          "text": "Análisis y Diseño de Sistemas de Información I",
+          "href": ""
+        },
+        {
+          "text": "Análisis y Diseño de Sistemas de Información II",
+          "href": ""
+        },
+        {
+          "text": "Redes de Computadoras II",
+          "href": ""
+        },
+        {
+          "text": "Métodos Cuantitativos para la Toma de Decisiones",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Quinto año",
+      "links": [
+        {
+          "text": "Derecho de la Informática",
+          "href": ""
+        },
+        {
+          "text": "Administración de Proyectos Informáticos",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a76"
+  },
+  "title": "TECNICATURA UNIVERSITARIA EN PROGRAMACIÓN",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Elementos de Programación ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Matemática para Informática ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Análisis Matemático I",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Álgebra Lineal y Geometría Analítica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Programación",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Sistemas de Computación",
+          "href": ""
+        },
+        {
+          "text": "Algoritmos y Estructuras de Datos",
+          "href": ""
+        },
+        {
+          "text": "Programación Orientada a Objetos",
+          "href": ""
+        },
+        {
+          "text": "Programación Numérica",
+          "href": ""
+        },
+        {
+          "text": "Paradigmas y Lenguajes",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Probabilidades y Estadística",
+          "href": ""
+        },
+        {
+          "text": "Base de Datos ",
+          "href": ""
+        },
+        {
+          "text": "Programación de Aplicaciones WEB",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a77"
+  },
+  "title": "LICENCIATURA EN FÍSICA",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Introducción a la Matemática",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Introducción a la Física",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Elementos de Fisioquímica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Álgebra Lineal y Geometría Analítica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Analisis Matemático I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Introducción a los Circuitos Eléctricos",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Analisis Matemático II",
+          "href": ""
+        },
+        {
+          "text": "Física I",
+          "href": ""
+        },
+        {
+          "text": "Laboratorio I",
+          "href": ""
+        },
+        {
+          "text": "Análisis Matemático II",
+          "href": ""
+        },
+        {
+          "text": "Física II",
+          "href": ""
+        },
+        {
+          "text": "Laboratorio II",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Mecánica",
+          "href": ""
+        },
+        {
+          "text": "Termodinámica I",
+          "href": ""
+        },
+        {
+          "text": "Física Moderna I",
+          "href": ""
+        },
+        {
+          "text": "Electromafnetismo",
+          "href": ""
+        },
+        {
+          "text": "Física Moderna II",
+          "href": ""
+        },
+        {
+          "text": "Laboratorio de Componentes y Mediciones",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Cuarto año",
+      "links": [
+        {
+          "text": "Mecánica Cuántica",
+          "href": ""
+        },
+        {
+          "text": "Mecánica de Fluidos",
+          "href": ""
+        },
+        {
+          "text": "Mecánica Estadística",
+          "href": ""
+        },
+        {
+          "text": "Transferencias de Calor y Materi",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a78"
+  },
+  "title": "PROFESORADO EN FÍSICA",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Matemática 1",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Elementos de Física",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Geometría Plana y Espacial",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Analisis Matemático I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Física 1",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        },
+        {
+          "text": "Inglés",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Analisis Matemático II",
+          "href": ""
+        },
+        {
+          "text": "Física 2",
+          "href": ""
+        },
+        {
+          "text": "Introducción a la Educación",
+          "href": ""
+        },
+        {
+          "text": "estadística",
+          "href": ""
+        },
+        {
+          "text": "Física 3",
+          "href": ""
+        },
+        {
+          "text": "Psicología Evolutiva",
+          "href": ""
+        },
+        {
+          "text": "Introducción al Conoimiento Científico",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Física Moderna 1",
+          "href": ""
+        },
+        {
+          "text": "Laboratorio I",
+          "href": ""
+        },
+        {
+          "text": "Física Moderna 2",
+          "href": ""
+        },
+        {
+          "text": "Laboratorio II",
+          "href": ""
+        },
+        {
+          "text": "Termodinámica ",
+          "href": ""
+        },
+        {
+          "text": "Didáctica y Formación Docente",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Cuarto año",
+      "links": [
+        {
+          "text": "Historia y Epistemología de la Física",
+          "href": ""
+        },
+        {
+          "text": "Método de la Enseñanza de la Física",
+          "href": ""
+        },
+        {
+          "text": "Física Ambiental",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a79"
+  },
+  "title": "TECNICATURA UNIVERSITARIA EN ESTADÍSTICA",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Elementos de Algebra",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Estadística Descriptiva",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Inglés",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Cálculo I",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Teoría de la Probabilidad",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Cálculo II",
+          "href": ""
+        },
+        {
+          "text": "Estadística Inferencial",
+          "href": ""
+        },
+        {
+          "text": "Informática Estadística I",
+          "href": ""
+        },
+        {
+          "text": "Introducción al Conocimiento Científico",
+          "href": ""
+        },
+        {
+          "text": "Informática Estadística II",
+          "href": ""
+        },
+        {
+          "text": "Análisis y Métodos Esraísticos",
+          "href": ""
+        },
+        {
+          "text": "Teoría y Técnicas de Muestreo",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Diseño Experimental y Análisis de la Varianza",
+          "href": ""
+        },
+        {
+          "text": "Estadística Aplicada al Control de Calidad",
+          "href": ""
+        },
+        {
+          "text": "Métodos Estadísticos no Paramétricos",
+          "href": ""
+        },
+        {
+          "text": "Investigación de Operaciones",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a7a"
+  },
+  "title": "TECNICATURA ELECTRÓNICA UNIVERSITARIA",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Introducción a la Física",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Introducción a la Matemática",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Introducción a los Circuitos Eléctricos",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Álgebra Lineal y Geometría Analítica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Analisis Matemático I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Sistemas y Señales I",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Digital I",
+          "href": ""
+        },
+        {
+          "text": "Física I",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Digital II",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Analógica",
+          "href": ""
+        },
+        {
+          "text": "Física II",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Electrónica Digital III",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Industrial",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6574cb7e19f0717a85403a7b"
+  },
+  "title": "TECNICATURA UNIVERSITARIA EN ENERGÍA SOLAR",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Introducción a la Física",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Introducción a la Matemática",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Introducción a los Circuitos Eléctricos",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Álgebra Lineal y Geometría Analítica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Analisis Matemático I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Sistemas y Señales I",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Digital I",
+          "href": ""
+        },
+        {
+          "text": "Física I",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Digital II",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Analógica",
+          "href": ""
+        },
+        {
+          "text": "Física II",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Electrónica Digital III",
+          "href": ""
+        },
+        {
+          "text": "Electrónica Industrial",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}]

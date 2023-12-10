@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6575231c19f0717a85403a8d"
+  },
+  "id": 1,
+  "nombre": "Michael Kent",
+  "asignatura": "Matemáticas",
+  "descripcion": "Es un experto en el campo del marketing y su pasión por la asignatura es evidente en la forma en que enseña. Tiene una gran cantidad de conocimientos sobre las últimas tendencias y tecnologías en marketing, y siempre está buscando formas nuevas e innovadoras de ayudar a sus estudiantes a tener éxito. Sus clases son altamente interactivas y los estudiantes aprecian los ejemplos del mundo real que utiliza para ilustrar conceptos clave.",
+  "contacto": {
+    "nombre": "Michael Kent",
+    "asignatura": "Matemáticas",
+    "email": "Michael.Kent@example.com",
+    "telefono": "+987654321",
+    "direccion": "456 Calle Secundaria, Ciudad"
+  },
+  "foto": "imagenes/imagen1.jpg",
+  "linkedin": "https://www.linkedin.com/",
+  "twitter": "https://twitter.com/",
+  "instagram": "https://www.instagram.com/"
+},
+{
+  "_id": {
+    "$oid": "6575231c19f0717a85403a8e"
+  },
+  "id": 2,
+  "nombre": "Luca Smith",
+  "asignatura": "Historia",
+  "descripcion": "Es una apasionada de la historia y tiene una amplia experiencia en la enseñanza de esta asignatura. Sus clases son dinámicas y llenas de anécdotas interesantes que hacen que la historia cobre vida para sus estudiantes. Siempre está dispuesta a responder preguntas y ayudar a sus alumnos a comprender mejor los eventos históricos.",
+  "contacto": {
+    "nombre": "Luca Smith",
+    "asignatura": "Historia",
+    "email": "Luca.Smith@example.com",
+    "telefono": "+123456789",
+    "direccion": "123 Calle Principal, Ciudad"
+  },
+  "foto": "./imagenes/profe2.png",
+  "linkedin": "https://www.linkedin.com/",
+  "twitter": "https://twitter.com/",
+  "instagram": "https://www.instagram.com/"
+},
+{
+  "_id": {
+    "$oid": "6575231c19f0717a85403a8f"
+  },
+  "id": 3,
+  "nombre": "Emily Johnson",
+  "asignatura": "Ciencias",
+  "descripcion": "Es una científica apasionada con una gran habilidad para comunicar conceptos científicos de manera clara y comprensible. Sus clases son divertidas y atractivas, y a menudo realiza experimentos en el aula para ilustrar principios científicos. Siempre está dispuesta a ayudar a sus estudiantes a explorar su interés por la ciencia.",
+  "contacto": {
+    "nombre": "Emily Johnson",
+    "asignatura": "Ciencias",
+    "email": "Emily.Johnson@example.com",
+    "telefono": "+543210987",
+    "direccion": "789 Calle Ciencia, Ciudad"
+  },
+  "foto": "./imagenes/profe4.png",
+  "linkedin": "https://www.linkedin.com/",
+  "twitter": "https://twitter.com/",
+  "instagram": "https://www.instagram.com/"
+},
+{
+  "_id": {
+    "$oid": "6575231c19f0717a85403a90"
+  },
+  "id": 4,
+  "nombre": "Sara López",
+  "asignatura": "Arte",
+  "descripcion": "Es una artista talentosa y una apasionada del arte. Sus clases son una mezcla de teoría artística y práctica creativa, y siempre alienta a sus estudiantes a expresarse a través del arte. Organiza exposiciones de arte escolar para mostrar el talento de sus estudiantes.",
+  "contacto": {
+    "nombre": "Sara López",
+    "asignatura": "Arte",
+    "email": "Sara.López@example.com",
+    "telefono": "+876543210",
+    "direccion": "101 Calle Creativa, Ciudad"
+  },
+  "foto": "./imagenes/profe5.png",
+  "linkedin": "https://www.linkedin.com/",
+  "twitter": "https://twitter.com/",
+  "instagram": "https://www.instagram.com/"
+}]

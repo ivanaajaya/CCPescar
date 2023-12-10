@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "6575454819f0717a85403a93"
+  },
+  "title": "Google Activate",
+  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
+  "link": "https://learndigital-staging.withgoogle.com/activate/courses",
+  "image": "imagenes/imagenes Pasos/google.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575454819f0717a85403a94"
+  },
+  "title": "Google",
+  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
+  "link": "#",
+  "image": "imagenes/imagenes Pasos/google.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575454819f0717a85403a95"
+  },
+  "title": "Google",
+  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
+  "link": "#",
+  "image": "imagenes/imagenes Pasos/google.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575454819f0717a85403a96"
+  },
+  "title": "Google",
+  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
+  "link": "#",
+  "image": "imagenes/imagenes Pasos/google.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575454819f0717a85403a97"
+  },
+  "title": "Google",
+  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
+  "link": "#",
+  "image": "imagenes/imagenes Pasos/google.jpg"
+},
+{
+  "_id": {
+    "$oid": "6575454819f0717a85403a98"
+  },
+  "title": "Google",
+  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
+  "link": "#",
+  "image": "imagenes/imagenes Pasos/google.jpg"
+}]
