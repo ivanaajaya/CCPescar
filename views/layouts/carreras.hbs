@@ -1,0 +1,38 @@
+<div class="banner-container">
+    <video autoplay muted loop id="banner-video">
+        <source src="videos/educationIt.webm" type="video/mp4">
+        Tu navegador no admite el elemento de video.
+    </video>
+    <div class="banner-content">
+        <!--FRASE SOBRE EL VIDEO -->
+        <div class="banner-text">
+            <p id="typing-banner-text"></p>
+        </div>
+        <h2></h2>
+        <!--FIN DE FRASE SOBRE EL VIDEO -->
+    </div>
+</div>
+
+<!-- BODY: Contenido de la página -->
+<div class="container">
+    <!-- Sección "Carreras" -->
+    <div id="sections-placeholder">
+        {{#each carreras}}
+            <div class="carrera" id="{{title.toLowerCase}}-carrera">
+                <h1>{{title}}</h1>
+                <div class="contenedor-secciones">
+                    {{#each sections}}
+                        <section class="anio">
+                            <h2>{{title}}</h2>
+                            <ul>
+                                {{#each links}}
+                                    <li><a href="{{href}}">{{text}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </section>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{{#if message}}
+<div class="alert alert-{{#if type}}{{type}}{{else}}primary{{/if}}">
+    <button class="btn-close float-end" data-bs-dismiss="alert"></button>
+    <h2 class="h4 m-0">{{message}}</h2>
+    <p class="m-0">{{err}}</p>
+</div>
+{{/if}}
