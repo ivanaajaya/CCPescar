@@ -1,1 +1,24 @@
-<script defer src="javascript/menu.js"></script>
+{{!-- <script defer src="javascript/menu.js"></script> --}}
+<!-- menu.hbs -->
+
+<!-- Estructura HTML del menú -->
+<header>
+    <div id="logo-container">
+        <div id="logo1">
+            <a href="/">
+                <img src="imagenes/logo1.png" alt="Logo 1">
+            </a>
+        </div>
+    </div>
+</header>
+
+<div id="menu-container">
+    <nav id="mainav" class="hoc clear">
+        <ul class="clear">
+            {{!-- Sección para insertar dinámicamente los elementos del menú --}}
+        </ul>
+    </nav>
+</div>
+
+<!-- Cargar el script externo -->
+<script src="javascript/navbar.js"></script>

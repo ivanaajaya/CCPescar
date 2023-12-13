@@ -1,3 +1,5 @@
+//manejar la obtención de cursos y renderizar diferentes vistas según los resultados de la consulta
+
 import Curso from "../models/cursoModel.js";
 import { config, notFound, resolve, getQuery } from "../utils/helpers.js";
 

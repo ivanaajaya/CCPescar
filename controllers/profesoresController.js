@@ -17,6 +17,9 @@
 //   }
 // };
 
+
+//manejando la obtención de profesores y renderizando diferentes vistas según los resultados de la consulta.
+
 import Profesor from "../models/profesoresModel.js";
 import { config, notFound, resolve, getQuery } from "../utils/helpers.js";
 

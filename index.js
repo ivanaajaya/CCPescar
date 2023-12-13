@@ -1,3 +1,5 @@
+/**se configuran y se utilizan módulos y configuraciones para iniciar el servidor. */
+
 /** IMPORTACIONES */
 // Production (Permanece en el proyecto)
 import express from 'express'
@@ -16,14 +18,15 @@ import cursoRouter from './routes/cursosRoute.js';
 const app = express();
 const PORT = process.env.PORT || 3000;
 const startMsg = `Aplicacion ejecutandose en el puerto ${PORT}`
-// Motor de Plantillas
+
+//Configuración del Motor de Plantillas Handlebars:
 app.engine("hbs", engine({
     defaultLayout: process.cwd()+"/views/index",
     extname: "hbs"
 }));
-
 app.set("view engine", "hbs");
 app.set('views', './views');
+
 /** IMPLEMENTACION */
 app.use(morgan('dev'));
 // Request Body Parser (Middleware)
@@ -34,8 +37,8 @@ app.use("/", authRouter);
 app.use("/carreras", carreraRoutes );
 app.use("/profesores", profesorRouter );
 app.use("/cursos", cursoRouter);
-
 // Rutas Estaticas para el Frontend
 app.use("/", express.static("public"));
-/** EJECUCION */
+
+/** Ejecución del Servidor */
 app.listen(PORT, console.log(startMsg))

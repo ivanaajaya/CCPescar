@@ -6,22 +6,21 @@
     <p>¿Estás listo para llevar tu aprendizaje al siguiente nivel? En nuestra plataforma, te brindamos acceso a una selección de profesores altamente cualificados y apasionados por enseñar. Ya sea que estés buscando mejorar tus habilidades académicas, explorar nuevos campos de conocimiento o simplemente aprender algo nuevo por diversión.</p>
 </div>
 <h2>Lista de Profesores</h2>
-        <section class="profesores-list">
-            {{#each profesores}}
-                <article class="profesor-item">
-                    <h3>{{this.nombre}}</h3>
-                    <p>Asignatura: {{this.asignatura}}</p>
-                    <p>Descripción: {{this.descripcion}}</p>
-                    <address>
-                        <strong>Contacto:</strong> {{this.contacto.nombre}}, Email: {{this.contacto.email}}, Teléfono: {{this.contacto.telefono}}, Dirección: {{this.contacto.direccion}}
-                    </address>
-                    <img src="{{this.foto}}" alt="{{this.nombre}}">
+    <section class="">
+        {{#each profesores}}
+            <article class="teachers">
+                <h3 class="teachers-title">{{this.nombre}}----- Asignatura: {{this.asignatura}}</h3>
+                <p class="tab-descripcion" >Descripción: {{this.descripcion}}</p>
+                <address>
+                    <strong>Contacto:</strong> {{this.contacto.nombre}}, Email: {{this.contacto.email}}, Teléfono: {{this.contacto.telefono}}, Dirección: {{this.contacto.direccion}}
+                </address>
+                <img class="foto" src="{{this.foto}}" alt="{{this.nombre}}">
 
-                    <ul class="profesor-social-links">
-                        <li><a href="{{this.linkedin}}" target="_blank">LinkedIn</a></li>
-                        <li><a href="{{this.twitter}}" target="_blank">Twitter</a></li>
-                        <li><a href="{{this.instagram}}" target="_blank">Instagram</a></li>
-                    </ul>
-                </article>
-            {{/each}}
-        </section>
+                <ul class="socials">
+                    <li><a href="{{this.linkedin}}" target="_blank">LinkedIn <img src="./imagenes/linkedin.svg" alt="" /></a></li>
+                    <li><a href="{{this.twitter}}" target="_blank">Twitter <img src="./imagenes/twiter.svg" alt="" /></a></li>
+                    <li><a href="{{this.instagram}}" target="_blank">Instagram <img src="./imagenes/insta.svg" alt="" /></a></li>
+                </ul>
+            </article>
+        {{/each}}
+    </section>

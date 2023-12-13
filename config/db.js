@@ -1,5 +1,11 @@
+/**
+*configuración para establecer una conexión a una base de datos MongoDB 
+utilizando el ODM (Object-Document Mapper) 
+Mongoose en una aplicación Node.js.
+*/
+
 // Importacion del ORM
-import dotenv from 'dotenv';
+import dotenv from 'dotenv'; //dotenv: Esta dependencia permite cargar variables de entorno desde un archivo .env
 import mongoose from 'mongoose';
 dotenv.config()
 // Indicador de Recurso Universal (Servidor MongoDB)

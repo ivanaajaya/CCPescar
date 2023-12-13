@@ -20,6 +20,8 @@
 // };
 
 
+//para manejar la obtención de carreras y renderizar diferentes vistas según los resultados de la consulta.
+
 import Carrera from "../models/carrerasModel.js";
 import { config, notFound, resolve, getQuery } from "../utils/helpers.js";
 

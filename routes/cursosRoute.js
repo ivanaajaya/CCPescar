@@ -1,3 +1,6 @@
+//este módulo establece la ruta para obtener todos los cursos y 
+//utiliza el controlador Curso.getCursos para manejar esa solicitud específica
+
 import { Router } from "express";
 import * as Curso from "../controllers/cursosController.js";
 

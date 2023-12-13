@@ -1,3 +1,6 @@
+//definición de modelo utilizando Mongoose, un ODM (Object-Document Mapper) 
+//Importa la biblioteca Mongoose para interactuar con MongoDB y definir modelos y esquemas.
+
 import mongoose from 'mongoose';
 
 const cursoSchema = new mongoose.Schema({
