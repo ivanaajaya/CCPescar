@@ -22,17 +22,18 @@
 
 //para manejar la obtención de carreras y renderizar diferentes vistas según los resultados de la consulta.
 
-import Carrera from "../models/carrerasModel.js";
+import CarreraUnsa from "../models/carreraUnsaModel.js";
 import { config, notFound, resolve, getQuery } from "../utils/helpers.js";
 
-export const getCarreras = (req, res) => {
+export const getCarrerasUnsa = (req, res) => {
     const query = getQuery(req);
-    Carrera.find(query)
-        .then((carreras) => 
-            carreras.length > 1 ? 
-            res.render('layouts/carreras', {...config, carreras: resolve(carreras)}) : 
-            carreras.length > 0 ?
-            res.render('layouts/carrera', {...config, carreras: resolve(carreras[0])}) :
+    
+    CarreraUnsa.find(query)
+        .then((carrerasUnsa) => 
+            carrerasUnsa.length > 1 ? 
+            res.render('layouts/carreras-unsa', {...config, carrerasUnsa: resolve(carrerasUnsa)}) : 
+            carrerasUnsa.length > 0 ?
+            res.render('layouts/carrera-unsa', {...config, carrerasUnsa: resolve(carrerasUnsa[0])}) :
             res.render('layouts/404', {...config, err: notFound})
         )
         .catch((err) => res.render('layouts/404', err));
