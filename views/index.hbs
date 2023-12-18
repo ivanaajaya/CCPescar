@@ -2,173 +2,18 @@
 <html lang="es">
 
 {{> head }}
-{{!-- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/index.css">
-    <link rel="stylesheet" type="text/css" href="styles/stylesMenEncPie.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-    <title>Pagina Web</title>
-</head> --}}
     
 <body>
-    {{> navbar}}
-    {{!-- <script defer src="javascript/menu.js"></script> --}}
-    <!-- Sección de video -->
+
+    {{> navbar}} <!-- INCLUYE EL menu DINÁMICAMENTE CON LA PLANTILLA -->
+
     <main>
         {{> error}}
         {{{body}}}
     </main>
-    {{!-- <div class="banner-container">
-        <video autoplay muted loop id="banner-video">
-            <source src="videos/educationIt.webm" type="video/mp4">
-            Tu navegador no admite el elemento de video.
-        </video>
-        <div class="banner-content">
-            <!--FRASE SOBRE EL VIDEO -->
-            <div class="banner-text">
-                <p id="typing-banner-text"></p>
-            </div>
-            <h2></h2>
-            <!--FIN DE FRASE SOBRE EL VIDEO -->
-        </div>
-    </div>
-    <!-- BODY: Quiénes somos y video promocional-->
-    <div class="container">
-        <div class="text-section">
-            <h3>SOBRE NOSOTROS</h3>
-            <p>¡Hola! Somos un equipo de cinco apasionadas estudiantes universitarias que se han unido
-            para crear esta plataforma con el objetivo de hacer la vida académica más accesible y enriquecedora para todos 
-            los estudiantes. Entendemos los desafíos que enfrentan los estudiantes en su camino hacia el éxito académico 
-            y profesional, y hemos diseñado esta página web para brindarles recursos y oportunidades que faciliten su trayectoria.
-            Nuestro propósito es proporcionar a los estudiantes universitarios un espacio en línea donde 
-            puedan acceder a una variedad de recursos y servicios diseñados específicamente para ellos. Creemos en la 
-            importancia de la educación y el aprendizaje continuo, y queremos ser un puente entre los estudiantes y las 
-            herramientas que necesitan para tener éxito en sus estudios y más allá.
-            Estamos comprometidas con el éxito de cada estudiante que visite nuestra página. Sabemos que cada uno tiene sus 
-            propios objetivos y desafíos únicos, y nos enorgullece ofrecer un entorno en el que puedas encontrar apoyo, 
-            inspiración y herramientas valiosas para tu viaje educativo.
-            </p>
-            <button class="consult-button">Consultanos</button>
-        </div>
-        <div class="video-section">
-            <video width="640" height="360" controls><source src="videos/compartiendo_conocimientos.mp4" type="video/mp4"></video>
-        </div>
-    </div>
-    <!-- Sección "Nuestros Servicios" -->
-    <section id="nuestros-servicios">
-        <h2>NUESTROS SERVICIOS</h2>
-        <h3>Contruimos Herramientas para los estudiantes</h3>
-        <div class="servicio">
-            <div class="servicio-icon">
-            <!-- Aquí puedes agregar un icono o imagen que represente el servicio -->
-                <img src="" alt="Servicio 1">
-            </div>
-            <h3>Documentos Academicos</h3>
-            <p>Descripción del Servicio 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="servicio">
-            <div class="servicio-icon">
-            <!-- Aquí puedes agregar un icono o imagen que represente el servicio -->
-                <img src="" alt="Servicio 2">
-            </div>
-            <h3>Documentos</h3>
-            <p>Descripción del Servicio 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="servicio">
-            <div class="servicio-icon">
-            <!-- Aquí puedes agregar un icono o imagen que represente el servicio -->
-                <img src="" alt="Servicio 3">
-            </div>
-            <h3>Servicio 3</h3>
-            <p>Descripción del Servicio 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="servicio">
-            <div class="servicio-icon">
-            <!-- Aquí puedes agregar un icono o imagen que represente el servicio -->
-                <img src="" alt="Servicio 4">
-            </div>
-            <h3>Servicio 4</h3>
-            <p>Descripción del Servicio 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-    </section>
-
-    <!--PASOS -->
-    <div class="rectangulo">
-        <h1>¿Cómo funciona la página?</h1>
-    </div>
-    <img class="Imagencentro" src="imagenes/cerebro.png" alt="Imagen de fondo">
-    <section id="pasos">
-        <div class="paso">
-            <img class="paso-img" src="imagenes/imagenes Pasos/imagen3.png" alt="Paso 1">
-            <div class="paso-content1">
-                <p>Explora nuestra variedad de recursos que tenemos para ofrecerte</p>
-            </div>
-        </div>
-        <div class="paso">
-            <div class="paso-content2">
-                <p>Elige el recurso que mejor se adapte a tus necesidades académicas.</p>
-            </div>
-            <img class="paso-img" src="imagenes/imagenes Pasos/imagen3.png" alt="Paso 2">
-        </div>
-        <div class="paso">
-            <img class="paso-img" src="imagenes/imagenes Pasos/imagen3.png" alt="Paso 3">
-            <div class="paso-content3">
-            <p>Participa en cursos, accede a documentos útiles o encuentra a un profesor particular dispuesto a ayudarte.</p>
-            </div>
-        </div>
-        <div class="paso">
-            <div class="paso-content4">
-                <p>Crece académicamente a medida que aprovechas nuestros recursos y servicios para tu desarrollo.</p>
-            </div>
-            <img class="paso-img" src="imagenes/imagenes Pasos/imagen2.png" alt="Paso 4">
-        </div>
-    </section>
-
-    <p id="Formulario">Únete a nosotros mientras creamos un espacio donde la educación y el crecimiento se encuentran, y donde cada estudiante puede encontrar el camino hacia su mejor versión.</p>
-    <button id="popupButton">COMPARTIR MATERIAL</button>
-    <div id="popup" class="popup">
-        <div class="popup-header">
-            <h2>Compartiendo Conocimientos</h2>
-            <button id="closeButton" class="round-button">
-                <span class="close-icon">X</span>
-            </button>
-        </div>
-        <section class="popup-section">
-            <p>Llena a continuación los datos y sube los documentos que quieras compartir</p>
-            <form id="fileForm" action="https://formsubmit.co/compartiendoconocimientos23@gmail.com" method="POST" enctype="multipart/form-data">
-                <label for="apodo">Apodo:</label>
-                <input type="text" id="apodo" name="apodo" required>
     
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="ejemplo@example.com">
-    
-                <label for="carrera">Nombre de Carrera:</label>
-                <input type="text" id="carrera" name="carrera" required>
-    
-                <label for="materia">Nombre de Materia:</label>
-                <input type="text" id="materia" name="materia" required>
-    
-                <label for="tipoDocumento">Tipo de Documento:</label>
-                <select id="tipoDocumento" name="tipoDocumento" required>
-                    <option value="apuntes">Apuntes</option>
-                    <option value="examenes">Examenes</option>
-                    <option value="parciales">Parciales</option>
-                    <option value="trabajosPracticos">Trabajos Prácticos</option>
-                </select>
-                <p>Compartemos tus comentarios (opcional)</p>
-                <textarea name="message" placeholder="Comentarios" id="custom-textarea"></textarea>
-                <p>Seleccione a continuacion el archivo (Máx 50mb)</p>
-                <input type="file" name="attachment" id="attachment" accept="image/png, image/jpeg, application/pdf, application/msword, application/vnd.ms-powerpoint, application/vnd.oasis.opendocument.text" required>
-            
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </div> --}}
     {{> footer}} <!-- INCLUYE EL FOOTER DINÁMICAMENTE CON LA PLANTILLA -->
-    {{!-- <script defer src="javascript/formulario.js"></script>
-    <script defer src="javascript/index.js"></script> --}}
+
 </body>
 
 </html>

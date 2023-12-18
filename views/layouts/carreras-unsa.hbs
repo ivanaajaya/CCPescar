@@ -8,7 +8,7 @@
 <div class="container">
     <!-- Sección "Carreras" -->
     <div id="sections-placeholder">
-        {{#each carreras}}
+        {{#each carrerasUnsa}}
             <div class="carrera" id="{{title.toLowerCase}}-carrera">
                 <h1>{{title}}</h1>
                 <div class="contenedor-secciones">
@@ -17,7 +17,8 @@
                             <h2>{{title}}</h2>
                             <ul>
                                 {{#each links}}
-                                    <li><a href="{{href}}">{{text}}</a></li>
+                                    <li><a href="/examenes-unsa?materiaId={{examen}}">{{text}}</a></li>
+                                    {{!-- <li>{{examen}}</li> --}}
                                 {{/each}}
                             </ul>
                         </section>

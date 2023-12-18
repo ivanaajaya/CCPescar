@@ -1,0 +1,22 @@
+<section>
+    <div class="banner-container">
+        <img src="imagenes/banner2.png" alt="">
+    </div>
+    <div id="documentos-container">
+        {{#each examenesUnsa}}
+            <div class="rectangulo">
+                <div class="documentos">
+                    <div class="icono_documento">
+                        <img src="imagenes/iconos/pdf.svg" alt="">
+                    </div>
+                    <div class="contenido_documento">
+                        <h2 class="documento-title">{{titulo}}</h2>
+                        <p>{{profesor}}</p>
+                        <p>{{descripcion}}</p>
+                        <a href="{{enlace}}" class="ver-archivo">Ver Archivo</a>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>
