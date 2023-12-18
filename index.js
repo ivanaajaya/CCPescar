@@ -9,10 +9,12 @@ import morgan from 'morgan';
 // Database Connection
 import dbConn from './config/db.js';
 // Application Routers
-import carreraRoutes from "./routes/carrerasRoute.js";
+import carreraUcasalRouter from './routes/carreraUcasalRoute.js';
+import carreraUnsaRoutes from "./routes/carreraUnsaRoute.js";
 import profesorRouter from './routes/profesoresRoute.js';
 import authRouter from './routes/authRoute.js';
 import cursoRouter from './routes/cursosRoute.js';
+import examenUnsaRouter from './routes/examenUnsaRouter.js';
 /** DECLARACIONES */
 // Servidor BackEnd
 const app = express();
@@ -34,7 +36,9 @@ app.use(express.urlencoded({extended: true}));
 
 // Rutas de la API
 app.use("/", authRouter);
-app.use("/carreras", carreraRoutes );
+app.use("/carreras-unsa", carreraUnsaRoutes );
+app.use("/carreras-ucasal", carreraUcasalRouter);
+app.use("/examenes-unsa", examenUnsaRouter);
 app.use("/profesores", profesorRouter );
 app.use("/cursos", cursoRouter);
 // Rutas Estaticas para el Frontend
