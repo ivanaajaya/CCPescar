@@ -3,7 +3,7 @@
 
 import mongoose from "mongoose";
 
-const linkSchema = new mongoose.Schema({
+const linksSchema = new mongoose.Schema({
   text: {
     type: String,
     required: true,
@@ -20,7 +20,7 @@ const sectionSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  links: [linkSchema],
+  links: [linksSchema],
 });
 
 const carreraSchema = new mongoose.Schema({

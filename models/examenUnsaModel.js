@@ -1,4 +1,4 @@
-// // Importa la biblioteca Mongoose para interactuar con MongoDB y definir modelos y esquemas.
+
 // import mongoose from "mongoose";
 
 // const examenUnsaSchema = new mongoose.Schema({
@@ -24,7 +24,6 @@
 //   },
 // });
 
-// // Especifica la colección "examenes_unsa" en el modelo
 // const ExamenUnsa = mongoose.model("ExamenUnsa", examenUnsaSchema, "examenes-unsa");
 
 // export default ExamenUnsa;
@@ -32,7 +31,11 @@
 
 import mongoose from "mongoose";
 
-const examenUnsaSchema = new mongoose.Schema({
+const linkSchema = new mongoose.Schema({
+  text: {
+    type: String,
+    required: true,
+  },
   tipo: {
     type: String,
     required: true,
@@ -55,6 +58,6 @@ const examenUnsaSchema = new mongoose.Schema({
   },
 });
 
-const ExamenUnsa = mongoose.model("ExamenUnsa", examenUnsaSchema, "examenes-unsa");
+const ExamenUnsa = mongoose.model("ExamenUnsa", linkSchema, "examenes-unsa");
 
 export default ExamenUnsa;
