@@ -10,6 +10,7 @@ const linkSchema = new mongoose.Schema({
   },
   examen: {
     type: mongoose.Schema.Types.ObjectId,
+    ref: 'ExamenUnsa', // Referencia al modelo de examen
     required: true,
   },
 });
@@ -30,7 +31,6 @@ const carreraSchema = new mongoose.Schema({
   sections: [sectionSchema],
 });
 
-// Especifica la colección "carreras_unsa" en el modelo
 const CarreraUnsa = mongoose.model("CarreraUnsa", carreraSchema, "carreras_unsa");
 
 export default CarreraUnsa;

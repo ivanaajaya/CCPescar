@@ -29,10 +29,10 @@
 
 // export default ExamenUnsa;
 
+
 import mongoose from "mongoose";
 
 const examenUnsaSchema = new mongoose.Schema({
-  _id: mongoose.Schema.Types.ObjectId,  // Agrega esta línea para definir el campo _id
   tipo: {
     type: String,
     required: true,
