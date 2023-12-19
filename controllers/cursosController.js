@@ -9,8 +9,6 @@ export const getCursos = (req, res) => {
         .then((cursos) => 
             cursos.length > 1 ? 
             res.render('layouts/cursos', {...config, cursos: resolve(cursos)}) : 
-            cursos.length > 0 ?
-            res.render('layouts/curso', {...config, cursos: resolve(cursos[0])}) :
             res.render('layouts/404', {...config, err: notFound})
         )
         .catch((err) => res.render('layouts/404', err));

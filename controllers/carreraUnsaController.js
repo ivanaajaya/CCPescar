@@ -32,8 +32,6 @@ export const getCarrerasUnsa = (req, res) => {
         .then((carrerasUnsa) => 
             carrerasUnsa.length > 1 ? 
             res.render('layouts/carreras-unsa', {...config, carrerasUnsa: resolve(carrerasUnsa)}) : 
-            carrerasUnsa.length > 0 ?
-            res.render('layouts/carrera-unsa', {...config, carrerasUnsa: resolve(carrerasUnsa[0])}) :
             res.render('layouts/404', {...config, err: notFound})
         )
         .catch((err) => res.render('layouts/404', err));

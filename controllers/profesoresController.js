@@ -29,8 +29,6 @@ export const getProfesores = (req, res) => {
         .then((profesores) => 
             profesores.length > 1 ? 
             res.render('layouts/profesores', {...config, profesores: resolve(profesores)}) : 
-            profesores.length > 0 ?
-            res.render('layouts/profesor', {...config, profesores: resolve(profesores[0])}) :
             res.render('layouts/404', {...config, err: notFound})
         )
         .catch((err) => res.render('layouts/404', err));
