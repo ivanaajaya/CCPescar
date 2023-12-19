@@ -30,11 +30,25 @@ export const resolve = (data) => JSON.parse(JSON.stringify(data))
 
 /**
  * Función para Obtener Consultas:
- * genera un objeto de consulta
+ * Genera un objeto de consulta
  * Puede tomar valores de cuerpo y parámetros de ruta para construir la consulta
  */
-export const getQuery = ({body, params:{ postId, val }}) => 
-    body.length > 0  && val ? {...body, [postId]: val } :
-    Number(postId) ? { postId } :
-    postId && val ? { [postId]: val } :
-    body.length > 0 ? {...body} : {}
+export const getQuery = ({ body, params: { postId, val } }) => {
+    if (body.length > 0 && val) {
+        return { ...body, [postId]: val };
+    } else if (Number(postId)) {
+        return { postId };
+    } else if (postId && val) {
+        return { [postId]: val };
+    } else if (body.length > 0) {
+        return { ...body };
+    } else {
+        return {};
+    }
+};
+
+// export const getQuery = ({body, params:{ postId, val }}) => 
+//     body.length > 0  && val ? {...body, [postId]: val } :
+//     Number(postId) ? { postId } :
+//     postId && val ? { [postId]: val } :
+//     body.length > 0 ? {...body} : {}
