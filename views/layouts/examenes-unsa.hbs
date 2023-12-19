@@ -2,7 +2,7 @@
     <div class="banner-container">
         <img src="imagenes/banner2.png" alt="">
     </div>
-    <div id="documentos-container">
+    <div id="documentos-container" style="color: aliceblue;">
         {{#each examenesUnsa}}
             <div class="rectangulo">
                 <div class="documentos">
@@ -10,10 +10,10 @@
                         <img src="imagenes/iconos/pdf.svg" alt="">
                     </div>
                     <div class="contenido_documento">
-                        <h2 class="documento-title">{{titulo}}</h2>
-                        <p>{{profesor}}</p>
-                        <p>{{descripcion}}</p>
-                        <a href="{{enlace}}" class="ver-archivo">Ver Archivo</a>
+                        <h2 class="documento-title">{{this.titulo}}: {{this.text}}</h2>
+                        <p>{{this.profesor}}</p>
+                        <p>{{this.descripcion}}</p>
+                        <a href="{{this.enlace}}" class="ver-archivo">Ver Archivo</a>
                     </div>
                 </div>
             </div>
