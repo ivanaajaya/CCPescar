@@ -1,4 +1,5 @@
 import ExamenUnsa from "../models/examenUnsaModel.js";
+import CarreraUnsa from "../models/carreraUnsaModel.js"; // Asegúrate de ajustar la ruta según tu estructura de archivos
 import { config, notFound, resolve, getQuery} from "../utils/helpers.js";
 
 export const getExamenesUnsaall = (req, res) => {
@@ -12,6 +13,25 @@ export const getExamenesUnsaall = (req, res) => {
     )
     .catch((err) => res.render('layouts/404', {...config, err: err}));
 };
+
+
+
+// export const getExamenesUnsaByCarrera = async (req, res) => {
+//     const query = getQuery(req);
+  
+//     try {
+//       // Recorre los enlaces de la carrera y busca los exámenes correspondientes
+//       const examenesUnsa = await ExamenUnsa.find({ text: { $in: carrera.sections.flatMap(section => section.links.map(link => link.text)) } });
+  
+//       // Renderiza la vista con los exámenes encontrados
+//       res.render('layouts/examenes-unsa', {...config, examenesUnsa: resolve(examenesUnsa)});
+//     } catch (error) {
+//       console.error(error);
+//       res.render('layouts/404', {...config, err: error});
+//     }
+//   };
+
+
 
 
 // export const getExamenesUnsa = async (req, res) => {
