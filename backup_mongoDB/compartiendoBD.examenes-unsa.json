@@ -1,5 +1,7 @@
 [{
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c2"
+  },
   "text": "Elementos de Programación ",
   "tipo": "resumen",
   "titulo": "RESUMEN DE TEMAS",
@@ -8,7 +10,9 @@
   "enlace": "https://docs.google.com/document/d/1iy8ZMBzl3gBpN5ghD2Gi_4WqdzlEBNyS/edit?usp=drive_link&ouid=101470661979458451405&rtpof=true&sd=true"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c3"
+  },
   "text": "Elementos de Programación ",
   "tipo": "parciales",
   "titulo": "IT - PARCIAL 1 - TEMA 1",
@@ -17,7 +21,9 @@
   "enlace": "https://drive.google.com/file/d/1MEAueeVe8qE0-AtDdCTuOL0gTgl3Knd0/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c4"
+  },
   "text": "Elementos de Programación ",
   "tipo": "parciales",
   "titulo": "IT - PARCIAL 1 - TEMA 2",
@@ -26,7 +32,9 @@
   "enlace": "https://drive.google.com/file/d/1RHR3ARJK3K3wtBPAPmXOU7dwH5JShmsR/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c5"
+  },
   "text": "Elementos de Programación ",
   "tipo": "parciales",
   "titulo": "IT - PARCIAL 1 - TEMA 3",
@@ -35,7 +43,9 @@
   "enlace": "https://drive.google.com/file/d/1MEAueeVe8qE0-AtDdCTuOL0gTgl3Knd0/view?usp=drive_link"
 },
 {
-
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c6"
+  },
   "text": "Matemática para Informática ",
   "tipo": "parciales",
   "titulo": "IT-PARCIAL 2-TEMA 1-DNI TERMINADOS EN 0, 1, 2, 3 Y 4",
@@ -44,7 +54,9 @@
   "enlace": "https://drive.google.com/file/d/1BQo-gXva8rnOHO3wqjHBnR7Q-q9trgaA/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c7"
+  },
   "text": "Matemática para Informática ",
   "tipo": "parciales",
   "titulo": "IT-PARCIAL 2-TEMA 2-DNI TERMINADOS EN 5, 6, 7, 8 Y 9",
@@ -53,7 +65,9 @@
   "enlace": "https://drive.google.com/file/d/1bE3mJpXk8ZBfSLCHGlSgrw4k1OHfn5Bi/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c8"
+  },
   "text": "Matemática para Informática ",
   "tipo": "parciales",
   "titulo": "IT-RECUP PARCIAL 2-TEMA1-DNI TERMIN 1, 2 Y 5",
@@ -62,7 +76,9 @@
   "enlace": "https://drive.google.com/file/d/1G4gU2CvxY7v9BjEhhOBzQz7zhQ3iXCu9/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631c9"
+  },
   "text": "Matemática para Informática ",
   "tipo": "parciales",
   "titulo": "IT-RECUP PARCIAL 2-TEMA2-DNI TERMIN 7",
@@ -71,7 +87,9 @@
   "enlace": "https://drive.google.com/file/d/12hIsZReh0Tyl7jq7J_7jWZGebHkdpgYo/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631ca"
+  },
   "text": "Matemática para Informática ",
   "tipo": "parciales",
   "titulo": "IT RECUPERATORIO PARCIAL 1 - TEMA 2",
@@ -80,7 +98,9 @@
   "enlace": "https://drive.google.com/file/d/1v-pZjxgoCq0Lvh3GdU7oV97Jtn8yPu8t/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631cb"
+  },
   "text": "Matemática para Informática ",
   "tipo": "parciales",
   "titulo": "IT RECUPERATORIO PARCIAL 1 - TEMA 1",
@@ -89,7 +109,9 @@
   "enlace": "https://drive.google.com/file/d/1biL6PHylBLtLkoTU6wYoI9tYin-3WuX7/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631cc"
+  },
   "text": "Matemática para Informática ",
   "tipo": "examen",
   "titulo": "IT-FINAL-T2-DNI IMPARES",
@@ -98,7 +120,9 @@
   "enlace": "https://drive.google.com/file/d/1ozdd0uHkVztAPuYz4xHFBqUvSJz5ZnkS/view?usp=drive_link"
 },
 {
-  
+  "_id": {
+    "$oid": "65810e3873d16dc9ff5631cd"
+  },
   "text": "Matemática para Informática ",
   "tipo": "examen",
   "titulo": "IT-FINAL-T2-DNI IMPARES",
