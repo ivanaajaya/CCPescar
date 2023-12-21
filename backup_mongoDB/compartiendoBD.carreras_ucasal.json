@@ -28,7 +28,7 @@
         {
           "text": "Quimica para ingenieros ",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb884"
           }
         },
         {
@@ -40,31 +40,31 @@
         {
           "text": "Prueba de suficiencia en comunicacion oral y escrita ",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb885"
           }
         },
         {
           "text": "Prueba de suficiencia de idioma ingles ",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb886"
           }
         },
         {
           "text": "Algebra lineal II",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb887"
           }
         },
         {
           "text": "Analisis Matematico II",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb888"
           }
         },
         {
           "text": "introduccion a la informatica",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb889"
           }
         },
         {
@@ -81,49 +81,49 @@
         {
           "text": "Estructura de datos y algoritmos",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb88c"
           }
         },
         {
           "text": "Arquitectura de computadores",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb88d"
           }
         },
         {
           "text": "Analisis matematico III",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb88e"
           }
         },
         {
           "text": "Lenguajes I",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb88f"
           }
         },
         {
           "text": "Fisica II",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb890"
           }
         },
         {
           "text": "Economia de la empresa",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb891"
           }
         },
         {
           "text": "Probabilidad y estadistica I",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb892"
           }
         },
         {
           "text": "Calculo Avanzado",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb893"
           }
         },
         {
@@ -391,7 +391,7 @@
         {
           "text": "Filosofia ",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb883"
           }
         },
         {
@@ -451,7 +451,7 @@
         {
           "text": "Fisica I",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb88a"
           }
         },
         {
@@ -468,7 +468,7 @@
         {
           "text": "Teologia",
           "examen": {
-            "$oid": "657137e5319f66c8fc144bb0"
+            "$oid": "6583c9eee2a8faba604cb88b"
           }
         },
         {

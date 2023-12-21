@@ -1,6 +1,6 @@
 [{
   "_id": {
-    "$oid": "658392b346aed974c7e6e3d3"
+    "$oid": "6583c9eee2a8faba604cb880"
   },
   "Algebra Lineal 1": [
     {
@@ -31,7 +31,7 @@
 },
 {
   "_id": {
-    "$oid": "658392b346aed974c7e6e3d4"
+    "$oid": "6583c9eee2a8faba604cb881"
   },
   "Analisis Matematico 1": [
     {
@@ -49,6 +49,1906 @@
       "profesor": "Profesor:...........",
       "descripcion": "Descripcion: Parcial 1 teoria",
       "enlace": "https://drive.google.com/drive/u/2/folders/1rakBUfocwoSCw7hEPAWZKfNiUAb-sWsE"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb882"
+  },
+  "Fundamentos de Informatica ": [
+    {
+      "text": "fundamentos de informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/14bganE9M1HlLYsoYPpHgwNEg2O6G_k_E"
+    },
+    {
+      "text": "fundamentos de informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 2",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 2",
+      "enlace": "https://drive.google.com/drive/u/2/folders/14bganE9M1HlLYsoYPpHgwNEg2O6G_k_E"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb883"
+  },
+  "Filosofia ": [
+    {
+      "text": "filosofia",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb884"
+  },
+  "Quimica para ingenieros": [
+    {
+      "text": "quimica para ingenieros",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1fofAiqTipYspabwajQOHmvx-vB66nj4x"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb885"
+  },
+  "Prueba de suficiencia en comunicacion oral y escrita": [
+    {
+      "text": "prueba de suficiencia en comunicacion oral y escrita",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb886"
+  },
+  "Prueba de suficiencia de idioma Ingles ": [
+    {
+      "text": "prueba de suficiencia de idioma ingles",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb887"
+  },
+  "Algebra lineal II ": [
+    {
+      "text": "algebra lineal ii",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1lo71BG6ZEAUtQV1S2NC62iVD_sZKP-wb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb888"
+  },
+  "Analisis Matematico II": [
+    {
+      "text": "Analisis Matematico II",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/12fNKabzln5jYBPebpOnJ1ZOus-6td7Gz"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb889"
+  },
+  "Introduccion a la informatica ": [
+    {
+      "text": "Introduccion a la informatica",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1cZe_saCSZSwGgTf8j4lytB9EjkRgvjhb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb88a"
+  },
+  "Fisica 1 ": [
+    {
+      "text": "fisica 1",
+      "tipo": "Examenes",
+      "titulo": "Examen global",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion:Global ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1oe4RNglr3dsIDn3yzldSEpl1HDAsKpxr"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb88b"
+  },
+  "Teologia": [
+    {
+      "text": "teologia",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb88c"
+  },
+  "Estructura de datos y algoritmos ": [
+    {
+      "text": "Estructura de datos y algoritmos",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 teoria",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb88d"
+  },
+  "Arquitectura de computadores ": [
+    {
+      "text": "arquitectura de computadores",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb88e"
+  },
+  "Analisis matematico 3 ": [
+    {
+      "text": "analisis matematico 3",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb88f"
+  },
+  "lenguajes 1 ": [
+    {
+      "text": "lenguajes 1",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb890"
+  },
+  "fisica 2": [
+    {
+      "text": "fisica 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb891"
+  },
+  "economia de la empresa": [
+    {
+      "text": "economia de la empresa",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb892"
+  },
+  "Probabilidad y estadistica 1 ": [
+    {
+      "text": "probabilidad y estadistica 1",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb893"
+  },
+  "calculo avanzado ": [
+    {
+      "text": "calculo avanzado",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb894"
+  },
+  "lenguajes 2": [
+    {
+      "text": "lenguajes 2",
+      "tipo": "Examenes",
+      "titulo": "Parcial 2",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 2",
+      "enlace": "https://docs.google.com/document/d/1CzF_icL71N-UaI82oAUWHJ6weIn_O0cj/edit"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb895"
+  },
+  "sistemas 1 ": [
+    {
+      "text": "sistemas 1",
+      "tipo": "Examenes",
+      "titulo": "Parcial 2",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 2",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb896"
+  },
+  "Introduccion a sistemas operativos ": [
+    {
+      "text": "introduccion a sistemas operativos",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb897"
+  },
+  "fisica aplicada ": [
+    {
+      "text": "fisica aplicada",
+      "tipo": "Examenes",
+      "titulo": "Examen global",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion:Global ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb898"
+  },
+  "economia y finanzas ": [
+    {
+      "text": "economia y finanzas",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb899"
+  },
+  "Probabilidad y estadistica 2 ": [
+    {
+      "text": "probabilidad y estadistica 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb89a"
+  },
+  "Sistemas operativos": [
+    {
+      "text": "sistemas operativos",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb89b"
+  },
+  "Sistemas 2": [
+    {
+      "text": "Sistemas 2",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb89c"
+  },
+  "Redes 1": [
+    {
+      "text": "Redes 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb89d"
+  },
+  "Doctrina social de la iglesia": [
+    {
+      "text": "Doctrina social de la iglesia",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb89e"
+  },
+  "Analisis Numerico": [
+    {
+      "text": "Analisis numerico",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb89f"
+  },
+  "Lenguajes 3": [
+    {
+      "text": "Lenguajes 3",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a0"
+  },
+  "Bases de datos 1": [
+    {
+      "text": "Bases de datos 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a1"
+  },
+  "Proyectos informaticos 1": [
+    {
+      "text": "Proyectos informaticos 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a2"
+  },
+  "Etica profesional": [
+    {
+      "text": "Etica profesional",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a3"
+  },
+  "Lenguajes 4": [
+    {
+      "text": "Lenguajes 4",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a4"
+  },
+  "Bases de datos 2": [
+    {
+      "text": "Bases de datos 2",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a5"
+  },
+  "Proyectos informaticos 2": [
+    {
+      "text": "Proyectos informaticos 2",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a6"
+  },
+  "Higiene y seguridad": [
+    {
+      "text": "Higiene y seguridad",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a7"
+  },
+  "Ingenieria de software": [
+    {
+      "text": "Ingenieria de software",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a8"
+  },
+  "Sistemas 3": [
+    {
+      "text": "Sistemas 3",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8a9"
+  },
+  "Redes 2": [
+    {
+      "text": "Redes 2",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8aa"
+  },
+  "Bases de datos 3": [
+    {
+      "text": "Bases de datos 3",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ab"
+  },
+  "Investigacion operativa 1": [
+    {
+      "text": "Investigacion operativa 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ac"
+  },
+  "Direccion de proyectos": [
+    {
+      "text": "Direccion de proyectos",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ad"
+  },
+  "Compiladores": [
+    {
+      "text": "Compiladores",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ae"
+  },
+  "Analisis de datos": [
+    {
+      "text": "Analisis de datos",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8af"
+  },
+  "Investigacion operativa 2": [
+    {
+      "text": "Investigacion operativa 2",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b0"
+  },
+  "Modelos y simulacion": [
+    {
+      "text": "Modelos y simulacion",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b1"
+  },
+  "Sistemas inteligentes": [
+    {
+      "text": "Sistemas inteligentes",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b2"
+  },
+  "Auditoria de sistemas": [
+    {
+      "text": "Auditoria de sistemas",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b3"
+  },
+  "Tecnicas avanzadas de analisis de datos": [
+    {
+      "text": "tecnicas avanzadas de analisis de datos ",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b4"
+  },
+  "Recursos humanos": [
+    {
+      "text": "Recursos humanos",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b5"
+  },
+  "Ingenieria legal": [
+    {
+      "text": "ingenieria legal",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b6"
+  },
+  "Proyecto de grado": [
+    {
+      "text": "proyecto de grado",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b7"
+  },
+  "seguridad informatica": [
+    {
+      "text": "seguridad informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b8"
+  },
+  "estrategia e informatica": [
+    {
+      "text": "estrategia e informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8b9"
+  },
+  "Redes 3": [
+    {
+      "text": "Redes 3",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ba"
+  },
+  "Legislacion informatica": [
+    {
+      "text": "Legislacion informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8bb"
+  },
+  "Algebra Lineal 1": [
+    {
+      "text": "Algebra Lineal 1 ",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final TEMA A",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1ejZnnUa5_0Y8C3AIOf9NJ1QVbTV4tyXW"
+    },
+    {
+      "text": "Algebra Lineal 1 ",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: PARCIAL 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1FZn-Gv7BdFR4LZD7b38q6Y3d_QaNKdmj"
+    },
+    {
+      "text": "Algebra Lineal 1 ",
+      "tipo": "parciales",
+      "titulo": "PARCIAL 2",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 2",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1FZn-Gv7BdFR4LZD7b38q6Y3d_QaNKdmj"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8bc"
+  },
+  "Analisis Matematico 1": [
+    {
+      "text": "Analisis Matematico 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 practica",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1rakBUfocwoSCw7hEPAWZKfNiUAb-sWsE"
+    },
+    {
+      "text": "Analisis Matematico 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 teoria",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1rakBUfocwoSCw7hEPAWZKfNiUAb-sWsE"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8bd"
+  },
+  "Fundamentos de Informatica ": [
+    {
+      "text": "fundamentos de informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/14bganE9M1HlLYsoYPpHgwNEg2O6G_k_E"
+    },
+    {
+      "text": "fundamentos de informatica",
+      "tipo": "parciales",
+      "titulo": "Parcial 2",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 2",
+      "enlace": "https://drive.google.com/drive/u/2/folders/14bganE9M1HlLYsoYPpHgwNEg2O6G_k_E"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8be"
+  },
+  "Filosofia ": [
+    {
+      "text": "filosofia",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8bf"
+  },
+  "Quimica para ingenieros": [
+    {
+      "text": "quimica para ingenieros",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1fofAiqTipYspabwajQOHmvx-vB66nj4x"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c0"
+  },
+  "Prueba de suficiencia en comunicacion oral y escrita": [
+    {
+      "text": "prueba de suficiencia en comunicacion oral y escrita",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c1"
+  },
+  "Prueba de suficiencia de idioma Ingles ": [
+    {
+      "text": "prueba de suficiencia de idioma ingles",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c2"
+  },
+  "Algebra lineal II ": [
+    {
+      "text": "algebra lineal ii",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1lo71BG6ZEAUtQV1S2NC62iVD_sZKP-wb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c3"
+  },
+  "Analisis Matematico II": [
+    {
+      "text": "Analisis Matematico II",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/12fNKabzln5jYBPebpOnJ1ZOus-6td7Gz"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c4"
+  },
+  "Introduccion a la informatica ": [
+    {
+      "text": "Introduccion a la informatica",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1cZe_saCSZSwGgTf8j4lytB9EjkRgvjhb"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c5"
+  },
+  "Fisica 1 ": [
+    {
+      "text": "fisica 1",
+      "tipo": "Examenes",
+      "titulo": "Examen global",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion:Global ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1oe4RNglr3dsIDn3yzldSEpl1HDAsKpxr"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c6"
+  },
+  "Teologia": [
+    {
+      "text": "teologia",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c7"
+  },
+  "Estructura de datos y algoritmos ": [
+    {
+      "text": "Estructura de datos y algoritmos",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 teoria",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c8"
+  },
+  "Arquitectura de computadores ": [
+    {
+      "text": "arquitectura de computadores",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8c9"
+  },
+  "Analisis matematico 3 ": [
+    {
+      "text": "analisis matematico 3",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ca"
+  },
+  "lenguajes 1 ": [
+    {
+      "text": "lenguajes 1",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8cb"
+  },
+  "fisica 2": [
+    {
+      "text": "fisica 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8cc"
+  },
+  "economia de la empresa": [
+    {
+      "text": "economia de la empresa",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8cd"
+  },
+  "Probabilidad y estadistica 1 ": [
+    {
+      "text": "probabilidad y estadistica 1",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ce"
+  },
+  "Analisis Matematico 4": [
+    {
+      "text": "Analisis Matematico 4",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8cf"
+  },
+  "fisica 3 ": [
+    {
+      "text": "fisica 3",
+      "tipo": "Examenes",
+      "titulo": "Examen global",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion:Global ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d0"
+  },
+  "economia y finanzas ": [
+    {
+      "text": "economia y finanzas",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d1"
+  },
+  "Probabilidad y estadistica 2 ": [
+    {
+      "text": "probabilidad y estadistica 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d2"
+  },
+  "SISTEMAS DE REPRESENTACIÓN ": [
+    {
+      "text": "SISTEMAS DE REPRESENTACIÓN",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d3"
+  },
+  "Analisis Matematico 4": [
+    {
+      "text": "Analisis Matematico 4",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d4"
+  },
+  "Comunucaciones basicas": [
+    {
+      "text": "Comunicaciones Basicas",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d5"
+  },
+  "Programacion Aplicada": [
+    {
+      "text": "Comunicaciones Basicas",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d6"
+  },
+  "Fisica 3": [
+    {
+      "text": "Fisica 3",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d7"
+  },
+  "PROPAGACIÓN Y RADIACIÓN ELECTROMAGNÉTICA": [
+    {
+      "text": "PROPAGACIÓN Y RADIACIÓN ELECTROMAGNÉTICA",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d8"
+  },
+  "DOCTRINA SOCIAL DE LA IGLESIA": [
+    {
+      "text": "DOCTRINA SOCIAL DE LA IGLESIA",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8d9"
+  },
+  "ANÁLISIS NUMÉRICO": [
+    {
+      "text": "ANÁLISIS NUMÉRICO",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8da"
+  },
+  "Redes": [
+    {
+      "text": "Redes",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8db"
+  },
+  "Sistemas y Señales": [
+    {
+      "text": "Sistemas y Señales",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8dc"
+  },
+  "TEORÍA DE CIRCUITOS 1": [
+    {
+      "text": "TEORÍA DE CIRCUITOS 1",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8dd"
+  },
+  "PRÁCTICA PROFESIONAL SUPERVISADA TÉCNICO": [
+    {
+      "text": "PRÁCTICA PROFESIONAL SUPERVISADA TÉCNICO",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8de"
+  },
+  "ÉTICA PROFESIONAL": [
+    {
+      "text": "ÉTICA PROFESIONAL",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8df"
+  },
+  "SISTEMAS OPERATIVOS": [
+    {
+      "text": "SISTEMAS OPERATIVOS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e0"
+  },
+  "REDES 2": [
+    {
+      "text": "REDES 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e1"
+  },
+  "ELECTRÓNICA 1": [
+    {
+      "text": "ELECTRÓNICA 1",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e2"
+  },
+  "Teoria de Circuitos 2": [
+    {
+      "text": "Teoria de Circuitos 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e3"
+  },
+  "TEORÍA DE LA INFORMACIÓN Y COMUNICACIÓN": [
+    {
+      "text": "TEORÍA DE LA INFORMACIÓN Y COMUNICACIÓN",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e4"
+  },
+  "MEDIDAS ELÉCTRICAS Y ELECTRÓNICAS": [
+    {
+      "text": "MEDIDAS ELÉCTRICAS Y ELECTRÓNICAS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e5"
+  },
+  "COMUNICACIONES DIGITALES": [
+    {
+      "text": "COMUNICACIONES DIGITALES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e6"
+  },
+  "SISTEMAS DE COMUNICACIONES": [
+    {
+      "text": "SISTEMAS DE COMUNICACIONES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e7"
+  },
+  "INVESTIGACIÓN OPERATIVA": [
+    {
+      "text": "NVESTIGACIÓN OPERATIVA",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e8"
+  },
+  "GESTIÓN DE PROYECTOS": [
+    {
+      "text": "GESTIÓN DE PROYECTOS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8e9"
+  },
+  "ELECTRÓNICA 2": [
+    {
+      "text": "ELECTRÓNICA 2",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ea"
+  },
+  "ANTENAS": [
+    {
+      "text": "ANTENAS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8eb"
+  },
+  "ANTENAS": [
+    {
+      "text": "SISTEMAS DE CONMUTACION",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ec"
+  },
+  "SISTEMAS DE TRANSMISIÓN": [
+    {
+      "text": "SISTEMAS DE TRANSMISIÓN",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ed"
+  },
+  "TÉCNICAS DIGITALES": [
+    {
+      "text": "TÉCNICAS DIGITALES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ee"
+  },
+  "REDES 3": [
+    {
+      "text": "REDES 3",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8ef"
+  },
+  "SISTEMAS INALÁMBRICOS": [
+    {
+      "text": "SISTEMAS INALÁMBRICOS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f0"
+  },
+  "HIGIENE Y SEGURIDAD": [
+    {
+      "text": "HIGIENE Y SEGURIDAD",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f1"
+  },
+  "SISTEMAS DE TELECOMUNICACIONES": [
+    {
+      "text": "SISTEMAS DE TELECOMUNICACIONES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f2"
+  },
+  "SISTEMAS DE AYUDA A LA NAVEGACIÓN": [
+    {
+      "text": "SISTEMAS DE AYUDA A LA NAVEGACIÓN",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f3"
+  },
+  "SEGURIDAD Y CRIPTOGRAFÍA": [
+    {
+      "text": "SEGURIDAD Y CRIPTOGRAFÍA",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f4"
+  },
+  "RECURSOS HUMANOS": [
+    {
+      "text": "RECURSOS HUMANOS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f5"
+  },
+  "NGENIERÍA LEGAL": [
+    {
+      "text": "NGENIERÍA LEGAL",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f6"
+  },
+  "COMUNICACIONES MÓVILES": [
+    {
+      "text": "COMUNICACIONES MÓVILES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f7"
+  },
+  "MEDIOS ÓPTICOS": [
+    {
+      "text": "MEDIOS ÓPTICOS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f8"
+  },
+  "PRÁCTICA PROFESIONAL SUPERVISADA INGENIERO": [
+    {
+      "text": "PRÁCTICA PROFESIONAL SUPERVISADA INGENIERO",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8f9"
+  },
+  "PROYECTO DE GRADO": [
+    {
+      "text": "PROYECTO DE GRADO",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8fa"
+  },
+  "REDES INTELIGENTES": [
+    {
+      "text": "REDES INTELIGENTES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8fb"
+  },
+  "SISTEMAS DE ENTORNOS": [
+    {
+      "text": "SISTEMAS DE ENTORNOS",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8fc"
+  },
+  "LEGISLACIÓN ESPECÍFICA": [
+    {
+      "text": "LEGISLACIÓN ESPECÍFICA",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6583c9eee2a8faba604cb8fd"
+  },
+  "T.V. DIGITAL Y PROCESAMIENTO DE IMÁGENES": [
+    {
+      "text": "T.V. DIGITAL Y PROCESAMIENTO DE IMÁGENES",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1O2aHgIJs08hB36ybnzuDSWrdcTQkBG6t"
     }
   ]
 }]
