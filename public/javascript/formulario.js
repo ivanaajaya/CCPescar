@@ -1,27 +1,25 @@
-const popupButton = document.getElementById('popupButton');
-const popup = document.getElementById('popup');
-const closeButton = document.getElementById('closeButton');
-const fileInput = document.getElementById('attachment');
-const dragDropText = document.querySelector('.drag-drop-text');
-const uploadedFilesContainer = document.getElementById('uploaded-files-container'); // Nuevo
-
-popupButton.addEventListener('click', () => {
+// Lógica para mostrar el popup y cargar archivos
+document.getElementById('openPopupButton').addEventListener('click', () => {
     popup.style.display = 'block';
+    document.getElementById('attachment').click();
 });
 
-closeButton.addEventListener('click', () => {
-    popup.style.display = 'none';
+// Maneja el evento de cambio en el input de archivos
+document.getElementById('attachment').addEventListener('change', (e) => {
+    handleFileInputChange(e);
 });
 
-fileInput.addEventListener('change', (e) => {
+// Función para manejar el cambio en el input de archivos
+function handleFileInputChange(e) {
     const files = e.target.files;
+    const uploadedFilesContainer = document.getElementById('uploaded-files-container');
+    const dragDropText = document.querySelector('.drag-drop-text');
+
     if (files.length > 0) {
+        // Lógica para mostrar los archivos cargados en el contenedor
+        uploadedFilesContainer.innerHTML = '';
         dragDropText.textContent = `${files.length} archivo(s) seleccionado(s)`;
 
-        // Limpiamos el contenedor de archivos cargados
-        uploadedFilesContainer.innerHTML = '';
-
-        // Mostramos los archivos y opción de eliminar
         for (const file of files) {
             const fileItem = document.createElement('div');
             fileItem.className = 'file-item';
@@ -38,9 +36,27 @@ fileInput.addEventListener('change', (e) => {
             uploadedFilesContainer.appendChild(fileItem);
         }
     } else {
+        // Lógica cuando no se seleccionan archivos
         dragDropText.textContent = 'Arrastra y suelta los archivos aquí';
         uploadedFilesContainer.innerHTML = ''; // Limpiamos el contenedor
     }
+}
+
+// Resto del código para el drag and drop y otros eventos ...
+
+const popupButton = document.getElementById('popupButton');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('closeButton');
+const fileInput = document.getElementById('attachment');
+const uploadedFilesContainer = document.getElementById('uploaded-files-container'); // Nuevo
+const dragDropText = document.querySelector('.drag-drop-text');
+
+popupButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+});
+
+closeButton.addEventListener('click', () => {
+    popup.style.display = 'none';
 });
 
 fileInput.addEventListener('dragover', (e) => {

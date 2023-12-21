@@ -1,4 +1,4 @@
-<div class="banner-container">
+{{!-- <div class="banner-container">
     <img src="./imagenes/profesores.PNG" alt="Profesores">
 </div>
 <div class="title">
@@ -23,4 +23,65 @@
                 </ul>
             </article>
         {{/each}}
+    </section> --}}
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Aquí va el enlace a tu archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/styleprofes.css">
+    <!-- Otros elementos del encabezado -->
+</head>
+
+<body>
+
+    <div class="banner-container">
+        <img src="./imagenes/profesores.PNG" alt="Profesores">
+    </div>
+
+    <div class="title">
+        <h1>Profesores & Tutores</h1>
+        <p>¿Estás listo para llevar tu aprendizaje al siguiente nivel? En nuestra plataforma, te brindamos acceso a una selección de profesores altamente cualificados y apasionados por enseñar. Ya sea que estés buscando mejorar tus habilidades académicas, explorar nuevos campos de conocimiento o simplemente aprender algo nuevo por diversión.</p>
+    </div>
+
+    <nav class="barrabusqueda">
+        <input class="form-control buscarAsignatura" list="datalistOptions" id="exampleDataList" placeholder="Buscar Asignatura:">
+        <datalist id="datalistOptions">
+            <option value="Matemáticas">
+            <option value="Ingles">
+            <option value="programacion">
+            <option value="economia">
+            <option value="algoritmica">
+            <option value="derecho">
+            <option value="finanzas publica">
+            <option value="contabilidad">
+            <!-- y mas -->
+        </datalist>
+    </nav>
+
+    <section class="container" id="documentos-container">
+        <div class="teachers-container">
+            {{#each profesores}}
+            <article class="teachers">
+                <img class="foto" src="{{this.foto}}" alt="{{this.nombre}}">
+                <div class="contenido">
+                    <h3 class="teachers-title">{{this.nombre}}----- Asignatura: {{this.asignatura}}</h3>
+                    <p class="tab-descripcion">Descripción: {{this.descripcion}}</p>
+                    <address>
+                        <strong>Contacto:</strong> {{this.contacto.nombre}}, Email: {{this.contacto.email}}, Teléfono: {{this.contacto.telefono}}, Dirección: {{this.contacto.direccion}}
+                    </address>
+                    <ul class="socials">
+                        <li><a href="{{this.linkedin}}" target="_blank">LinkedIn <img src="./imagenes/linkedin.svg" alt="" /></a></li>
+                        <li><a href="{{this.twitter}}" target="_blank">Twitter <img src="./imagenes/twiter.svg" alt="" /></a></li>
+                        <li><a href="{{this.instagram}}" target="_blank">Instagram <img src="./imagenes/insta.svg" alt="" /></a></li>
+                    </ul>
+                </div>
+            </article>
+            {{/each}}
+        </div>
     </section>
+
+</body>
+
+</html>

@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #ecf8fc;
+    background-color: #ffffff;
     height: 100vh;
     
     font-family: 'Roboto', sans-serif;
@@ -54,54 +54,58 @@ h1{
     place-items: center;
     grid-row-gap: 20px;
     width: 100%;
+    margin-bottom: 10px;
 }
 p{
     line-height: 1.5;
 }
 /* ---------------------------------- */
-.teachers {
+/* Estilos para los cuadrados de profesores */
+/* Estilos para los cuadrados de profesores */
+.teachers-container {
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
-    padding: 30px;
-    border-radius: 25px;
-    background-color: white;
-    max-width: 1000px;
-    min-width: 1000px;
-    /* max-width: clamp(920px, 70vw, 820px);
-    min-width: 260px; */
-    min-height: 280px;
+    justify-content: space-between;
+    margin: 20px auto; /* Ajusta el margen según tus preferencias */
+    max-width: 1200px;
+    padding: 20px; /* Añade un espacio interior al contenedor */
 }
 
-.teachers:hover {
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.foto {
-    flex: 1 1 230px;
-    /para modidicar el espacio de la foto/
-}
-
-.foto img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* .foto img:hover{
-    transform: translateX(0) scale(1.1);
-} */
-
-/* ---------------------------------- */
-.contenido {
-    flex: 3 2 300px;
+/* Estilos para los cuadrados de profesores */
+.teachers {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Espaciado inferior entre tarjetas */
     padding: 16px;
+    background-color: rgb(235, 241, 241);
+    width: 48%; /* Ancho para dos en una fila */
+    border-radius: 10px; /* Añade bordes redondeados */
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.1); /* Añade sombra a cada tarjeta */
 }
 
-.contenido>h2 {
+/* Consulta de medios para pantallas más grandes (ajusta según sea necesario) */
+@media (max-width: 767px) {
+    .teachers {
+        width: 100%; /* Ancho completo para uno en una fila */
+    }
+}
+
+/* Estilos para el contenido dentro de los cuadrados de profesores */
+.teachers article {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+/* Restablecer márgenes y rellenar en el contenido según sea necesario */
+.contenido {
+    margin: 0;
+    padding: 0;
+}
+
+.contenido>h3 {
     font-size: clamp(1.3rem, 2.5vw, 1.8rem);
     font-weight: 700;
     margin-bottom: clamp(0.35rem, 2vw, 0.55rem);
@@ -114,13 +118,27 @@ p{
     line-height: 22px;
 }
 
-/* ---------------------------------- */
+/* Estilos para la imagen dentro de los cuadrados de profesores */
+.foto {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tus preferencias */
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+/* Estilos para el contenido dentro de los cuadrados de profesores */
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para las redes sociales */
 .socials {
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 5px;
-    gap: clamp(0.4rem, 2vw, 0.8rem);
     gap: 5px;
 }
 
@@ -135,49 +153,15 @@ p{
     place-items: center;
     font-weight: bold;
     transition: .2s;
+    font-size: 10px;
 }
 
 .socials li a img {
-    width: 100%;/clamp(1.5rem, 2.0vw, 2rem);/
-    height: clamp(1.5rem, 2.0vw, 2rem);
-    stroke-width: 2px;
+    width: 25px;
+    height: auto;
 }
 
 .socials li a:hover img {
     transition: 1.2s;
     transform: rotateY(360deg);
-}
-
-.tab-buttons{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-}
-.tab-button{
-    background-color: #ffffff;
-    border:none;
-    padding: 10px 20px;
-    cursor: pointer;
-    height: 40px;
-}
-
-
-.tab-button:hover {
-    background-color: #ecf8fc;
-}
-
-.active-tab-button{
-    background-color: #ecf8fc;
-    transform: scaleY(1.1);
-    transform-origin: bo;
-}
-
-/* Estilo para los elementos de la lista de contacto */
-.tab-contacto ul li {
-    padding: 3px; /* Ajusta el valor de padding según tus preferencias */
-    list-style: none;
-}
-
-.estacio{
-    padding: 10px;
 }

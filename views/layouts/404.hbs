@@ -1,7 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Aquí va el enlace a tu archivo CSS -->
+    
+    {{!-- <link rel="stylesheet" type="text/css" href="/styles/index.css"> --}}
+    <link rel="stylesheet" type="text/css" href="/styles/stylesMenEncPie.css">
+    <!-- Otros elementos del encabezado -->
+</head>
+
 <section>
+    <div class="banner-container">
+        <div class="banner-container">
+            <img src="/imagenes/nodisponible.jpg" alt="">
+        </div>
+    </div>
     <h2>Error {{err.code}}</h2>
     <p>{{err.message}}</p>
     <button class="btn btn-primary" onclick="history.back()">
         Volver a la pagina anterior
     </button>
 </section>
+</html>

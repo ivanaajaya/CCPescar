@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ {{!-- <!DOCTYPE html>
 <html lang="es">
 <head>
     <link rel="stylesheet" type="text/css" href="/styles/documentos.css">
@@ -11,7 +11,7 @@
   <div id="documentos-container">
     {{#each examenesUcasal}}
       {{#each this}}
-        {{!-- <h2>{{@key}}</h2> <!-- Display the key, i.e., subject name --> --}}
+        <h2>{{@key}}</h2>  Display the key, i.e., subject name  
         {{#each this}}
           <div class="rectangulo">
             <div class="documentos">
@@ -32,4 +32,60 @@
   </div>
 </section>
 
-</html>
+</html>  --}}
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Aquí va el enlace a tu archivo CSS -->
+    
+    <link rel="stylesheet" type="text/css" href="/styles/documentos.css">
+    {{!-- <link rel="stylesheet" type="text/css" href="/styles/index.css"> --}}
+    <link rel="stylesheet" type="text/css" href="/styles/stylesMenEncPie.css">
+    <!-- Otros elementos del encabezado -->
+</head>
+
+
+<div class="banner-container">
+    <div class="banner-container">
+        <img src="/imagenes/banner2.png" alt="">
+    </div>
+</div>
+<section>
+    
+    <!--Filtros-->
+    <div class="filtro-content" id="filtro-content">
+        <button class="filtro filtro-resumen" data-tipo="resumen">Resúmenes</button>
+        <button class="filtro filtro-examen" data-tipo="examen">Exámenes</button>
+        <button class="filtro filtro-parciales" data-tipo="parciales">Parciales</button>
+        <button class="filtro filtro-TPs" data-tipo="Practicos">Practicos</button>
+        <button class="filtro filtro-Todo" data-tipo="Mostrar Todo">Todo</button>
+    </div>
+
+    <!-- Mensaje para cuando no se encuentren elementos -->
+    <div class="mensaje-vacio" style="display: none;">No se encontraron elementos que coincidan con el filtro seleccionado.</div>
+    
+    <div id="documentos-container">
+        {{#each examenesUcasal}}
+              {{#each this}}
+        {{!-- <h2>{{@key}}</h2>  Display the key, i.e., subject name --}}
+                  {{#each this}}
+                      <div class="rectangulo">
+                          <div class="documentos">
+                              <div class="icono_documento">
+                                  <img src="/imagenes/iconos/pdf.svg" alt="">
+                              </div>
+                              <div class="contenido_documento">
+                                  <h2 class="documento-title">{{this.titulo}}: {{this.text}}</h2>
+                                  <p>{{this.profesor}}</p>
+                                  <p>{{this.descripcion}}</p>
+                                  <a href="{{this.enlace}}" class="ver-archivo" target="_blank">Ver Archivo</a>
+                              </div>
+                          </div>
+                      </div>
+                  {{/each}}
+              {{/each}}
+        {{/each}}
+    </div>
+</section>

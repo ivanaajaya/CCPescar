@@ -1,4 +1,4 @@
-<!-- Estructura HTML del menú -->
+{{!--Estructura HTML del menú 
 <header>
     <div id="logo-container">
         <div id="logo1">
@@ -20,4 +20,43 @@
     </nav>
 </div>
 
+ --}}
+<!-- Estructura HTML del menú -->
+<header>
+    <div id="logo-container">
+        <div id="logo1">
+            <a href="/">
+                <img src="/imagenes/logo1.png" alt="Logo 1">
+            </a>
+        </div>
+    </div>
+    <!-- Agregar el icono del menú hamburguesa -->
+    <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</header>
+
+<div id="menu-container">
+    <nav id="mainav" class="hoc clear">
+        <ul class="clear">
+            <li><a href="/carreras-unsa" class="nav-link">UNSA</a></li>
+            <li><a href="/carreras-ucasal" class="nav-link">UCASAL</a></li>
+            <li><a href="/cursos" class="nav-link">CURSOS Y CARRERAS GRATUITAS</a></li>
+            <li><a href="/profesores" class="nav-link">PROFESORES PARTICULARES</a></li>
+        </ul>
+    </nav>
+</div>
+<!-- JavaScript para manejar la interacción del menú -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const mainNav = document.getElementById('mainav');
+
+    hamburgerMenu.addEventListener('click', function () {
+        mainNav.classList.toggle('show'); // Alternar la clase 'show' en el menú
+    });
+});
+</script>
 

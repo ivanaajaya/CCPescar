@@ -1,4 +1,4 @@
-<div class="banner-container">
+{{!-- <div class="banner-container">
     <div class="banner-container">
         <img src="imagenes/banner2.png" alt="">
     </div>
@@ -26,4 +26,50 @@
             </div>
         {{/each}}
     </div>
+</div> --}}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Aquí va el enlace a tu archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/stylesCarrMat.css">
+    <!-- Otros elementos del encabezado -->
+</head>
+
+<!-- Barra de búsqueda -->
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="INGENIERIA EN INFORMATICA">
+    <button id="search-button">Buscar</button>
 </div>
+
+<div class="banner-container">
+    <div class="banner-container">
+        <img src="imagenes/banner2.png" alt="">
+    </div>
+</div>
+
+<!-- BODY: Contenido de la página -->
+<div class="container">
+    <!-- Sección "Carreras" -->
+    <div id="sections-placeholder">
+        {{#each carrerasUnsa}}
+            <div class="carrera" id="{{title.toLowerCase}}-carrera">
+                <h1>{{this.title}}</h1>
+                <div class="contenedor-secciones">
+                    {{#each sections}}
+                        <section class="anio">
+                            <h2>{{this.title}}</h2>
+                            <ul>
+                                {{#each links}}
+                                    <li><a href="/examenes-unsa/carrera/{{this.examen}}" >{{this.text}}</a></li>
+                                {{/each}}
+                            </ul>
+                        </section>
+                    {{/each}}
+                </div>
+            </div>
+        {{/each}}
+
+    </div>
+</div>
+</html>

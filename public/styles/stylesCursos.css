@@ -1,264 +1,139 @@
-.banner-container {
-  position: relative;
-  height: 500px; /* Ajusta la altura del banner según tus preferencias */
-  overflow: hidden;
-}
-#banner-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-}
-.video-text {
-  position: absolute;
-  top: 60%; /* Alinea el centro del texto verticalmente */
-  left: 50%; /* Alinea el centro del texto horizontalmente */
-  transform: translate(-50%, -50%);
-  font-size: 75px; /* Tamaño de fuente */
-  font-family: 'Mochy Pop One', sans-serif; /* Tipo de fuente */
-  color: white; /* Color del texto */
-  font-weight: bold; /* Agrega la propiedad font-weight */
-  text-align: center; /* Alineación del texto */
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-  padding: 10px; /* Espacio alrededor del texto */
-  border-radius: 30px; /* Borde redondeado */
-}
-/* Estilos del banner */
-
-.columnas {
-  display: flex;
-  flex-wrap: wrap; /* Permite que las columnas se envuelvan en pantallas pequeñas */
-}
-
-/* Estilos para las columnas individuales */
-#columna1,
-#columna2,
-#columna3 {
-  flex: 1; /* Hace que todas las columnas tengan el mismo ancho */
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-   /* Agrega margen entre las columnas */
-  /* Agrega otros estilos según sea necesario */
-}
-/* Estilos de la columna de  noticias */
-#columnaNoticias {
-  width: 20%; /* Ancho de la columna izquierda (ajústalo según tu preferencia) */
-  background-color: white; /* Color de fondo de la columna */
-  padding: 10px; /* Espaciado interno */
-  float: left; /* Hace que la columna flote a la izquierda */
-  box-sizing: border-box; /* Incluye el padding en el ancho total */
-  margin: 35px;
-   /* Agregar sombra */
-   box-shadow: 3px 3px 5px white;
-   /* Agregar borde */
-   border: 1px solid #fefefe;
-   /* Estilo de borde redondeado */
-   border-radius: 5px;
-}
-.cabecera-noticias {
-  background-color: #091b2f;
-  color: white;
-  padding: 15px;
-  border-radius: 5px 5px 0 0; /* Esquinas superiores redondeadas */
-  text-align: center;
-}
-
-.contenido-noticias{
-  background-color: #fdfeff;
-  color: rgb(0, 0, 0);
-  padding: 15px;
-  border-radius: 5px 5px 0 0; /* Esquinas superiores redondeadas */
-  text-align: center;
-  border-bottom: 1px solid #080808;
-}
-.titulo {
+/* Estilos Generales de Página */
+body {
+  font-family: 'Josefin Sans', sans-serif;
   margin: 0;
-  font-size: 18px;
+  padding: 0;
 }
-.myCard {
-    background-color: transparent;
-    width: 300px;
-    height: 350px;
-    perspective: 1000px;
-    margin: 30px;
-    box-shadow: 3px 3px 5px white;
-    /* Agregar borde */
-    border: 1px solid #fefefe;
-  }
-  .innerCard {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    cursor: pointer;
-  }
-  
-  .myCard:hover .innerCard {
-    transform: rotateY(180deg);
-  }
-  
-  .frontSide,  /* Ajuste de estilo de el titulo de la card principal*/
-  .backSide {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border: 1px solid rgba(252, 255, 252, 0.8);
-    border-radius: 1rem;
-    font-size: 500;
-    font-weight: bold;
-    color: rgb(9, 9, 9);
-  }
-
-  .backSide .title{
-    font-size: 17px;
-    padding: 25px;
-    font-weight: bold;
-  }
-
-  .roundImage {
-    border-radius: 60%; /* Hace que la imagen sea redonda */
-    width: 150px; /* Ajusta el ancho de la imagen según tus necesidades */
-    height: 150px; /* Ajusta la altura de la imagen según tus necesidades */
-  
+h1 {
+  text-align: center;
 }
-.roundedButton {  /*Boton de la card blacKside*/
-  border-radius: 15px; /* Controla el grado de redondez de los bordes */
-  background-color: #4f4f4f; /* Cambia el color de fondo del botón */
-  color: white; /* Cambia el color del texto del botón */
-  padding: 10px 20px; /* Ajusta el espaciado interno del botón según tus preferencias */
-  border: none; /* Quita el borde del botón */
-  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-  font-size: 20px; /* Cambia el tamaño del texto del botón */
+.contenedor-imagen {
+  position: relative;
+  width: 600px;
+  height: 400px;
 }
-  .frontSide,   /*Color del fondo de la card principal*/
-  .frontSide::before {
-    background: rgba(230, 230, 230, 0.949);
-  }
-  
-  .backSide,
-  .backSide::before {
-    background: rgba(154, 153, 153, 0.5);
-  }
-  
-  .backSide {
-    transform: rotateY(180deg);
-  }
-  
-  .frontSide::before,
-  .backSide::before {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    content: '';
-    width: 110%;
-    height: 110%;
-    position: absolute;
-    z-index: -1;
-    border-radius: 1em;
-    filter: blur(20px);
-    animation: animate 5s linear infinite;
-  }
-  
-  @keyframes animate {
-    0% {
-      opacity: 0.2;
-    }
-  
-    80% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 0.2;
-    }
-  }
-  
-
-.container {
-    margin-top: 20px; 
-    display: flex;
-    justify-content: space-between;
-    max-width: 1500px;
-    margin: 50 auto;
-    padding: 0 20px;
+.imagen {
+  width: 230%;
+  height: auto;
+  object-fit: cover;
 }
-
-.container .column {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.square:hover {
-    transform: scale(1.05);
-}
-
-.square img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 10px;
-}
-.square:hover {
-    transform: scale(1.05);
-}
-
-.content p {
-    font-size: 0.9em;
-    margin: 5px 0;
-    
-}
-
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column; 
-        align-items: center; 
-    }
-
-    .column {
-        margin-right: 0; 
-        margin-left: 0;
-    }
-}
-/* Estilos para la versión de escritorio */
-table {
+.barra-busqueda {
+  position: absolute;
+  top: 94%;
+  left: 57%;
+  transform: translate(-50%, -50%);
   width: 100%;
-  border-collapse: collapse;
+  padding: 18.5px;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 23px;
+}
+.boton-busqueda {
+  position: absolute;
+  top: 79.5%;
+  right: -14%;
+  width: 9%;
+  padding: 15px;
+  background-color: #5f49c0;
+  color: #fff;
+  border: 1px solid #2980b9;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-/* Estilos para dispositivos móviles o pantallas pequeñas */
-@media (max-width: 500px) {
-  .columnaNoticias {
-    display: none;
-  }
-  table {
-      display: none; /* Oculta la tabla en pantallas pequeñas */
-  }
-
-  .myCard {
-    background-color: transparent;
-    width: 350px;
-    height: 400px;
-    perspective: 1000px;
-
-  }
-
-  /* Resto de los estilos para las tarjetas en dispositivos móviles */
+/* Líneas Laterales */
+.lineas-laterales {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.linea {
+  flex-grow: 1;
+  height: 5px;
+  background-color: #333;
+  margin: 0 30px;
 }
 
+/* Contenedor de Botones */
+.boton-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: 20px;
+}
+button {
+  padding: 5px 15px;
+  font-size: 16px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  border-radius: 5%;
+  border-color: #c7ccd1;
+  margin: 5%;
+}
+.texto-azul {
+  margin: 0;
+  color: blue;
+}
+.texto-celeste {
+  margin: 0;
+  color: rgb(0, 217, 255);
+  font-weight: 900;
+}
+.texto-izquierdo {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 3%;
+  text-align: left;
+}
+
+/* Contenedor de Artículos */
+.tienda-container {
+  padding: 0px;
+  font-size: 15px;
+  display: flex;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 20px;
+  margin: 0px;
+  overflow: initial;
+  white-space: unset;
+  transition: transform 0.5s ease;
+}
+.articulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 0.5px solid #ccc;
+  cursor: pointer;
+}
+.navegador {
+  justify-content: center;
+  margin: 20px 0;
+}
+.boton-navegacionder,
+.boton-navegacioniz {
+  padding: 35px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 50%;
+  position: absolute;
+}
+.boton-navegacionder {
+  float: left;
+}
+.boton-navegacioniz {
+  float: right;
+}
 
 
 

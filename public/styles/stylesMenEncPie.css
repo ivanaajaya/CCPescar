@@ -156,22 +156,24 @@ header {
     cursor: pointer;
     position: absolute; /* Ajustar posición absoluta para alinear con el logo */
     top: 0;
-    right: 20px; /* Ajustar la posición desde el lado derecho */
+    right: 18px; /* Ajustar la posición desde el lado derecho */
+    margin-right: 20px; /* Agregar un margen derecho entre el menú y el borde derecho */
 }
 
 /* Estilos para las líneas del icono del menú hamburguesa */
 .hamburger-menu span {
     display: block;
-    width: 60px;
+    width: 30px;
     height: 4px; /* Ajustar el tamaño de las líneas */
     background-color: #ffffff;
-    margin: 10px 0; /* Cambiar el margen vertical */
-    transition: background-color 0.3s ease-in-out;
+    margin: 8px 10px 0; /* Cambiar el margen vertical */
+    transition: background-color 0.5s ease-in-out;
 }
+
 
 /* Cambiar estilos al hacer hover en las líneas del menú hamburguesa */
 .hamburger-menu:hover span {
-    background-color: #85d8f1;
+    background-color: #4c4d4d;
 }
 
 /* Estilos para el menú desplegable en dispositivos móviles */
