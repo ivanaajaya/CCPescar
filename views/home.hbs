@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <!-- Aquí va el enlace a tu archivo CSS -->
-    {{!-- <link rel="stylesheet" type="text/css" href="./styles/index.css"> --}}
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
     <!-- Otros elementos del encabezado -->
 </head>
 <body>
@@ -154,3 +154,20 @@
     <script defer src="javascript/index.js"></script>
 </body>
 </html>
+
+<script>
+const popupButton = document.getElementById('popupButton');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('closeButton');
+const fileInput = document.getElementById('attachment');
+const uploadedFilesContainer = document.getElementById('uploaded-files-container'); // Nuevo
+const dragDropText = document.querySelector('.drag-drop-text');
+
+popupButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+});
+closeButton.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
+
+</script>
