@@ -11,44 +11,44 @@
   "_id": {
     "$oid": "6575454819f0717a85403a94"
   },
-  "title": "Google",
-  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
-  "link": "#",
-  "image": "imagenes/imagenes Pasos/google.jpg"
+  "title": "Accenture ",
+  "description": "El aprendizaje está en nuestro ADN. Ofrecemos a nuestros colaboradores oportunidades para adquirir nuevas habilidades y fortalecer su disposición para alcanzar nuevos roles.",
+  "link": "https://www.accenture.com/ar-es/careers/life-at-accenture/training-counseling",
+  "image": "imagenes/imagenes Pasos/Logo_acenture.png"
 },
 {
   "_id": {
     "$oid": "6575454819f0717a85403a95"
   },
-  "title": "Google",
-  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
-  "link": "#",
-  "image": "imagenes/imagenes Pasos/google.jpg"
+  "title": "FUDE",
+  "description": "Fundación para el Desarrollo Educativo (FUDE) es una entidad creada para brindar Cursos a Distancia de formación profesional a distancia a través de una Red de Centros Facilitadores (Aulas) creada para acercar a la sociedad la posibilidad de acceder a una formación académica formal.",
+  "link": "https://www.educativo.net/quienes-somos.html",
+  "image": "imagenes/imagenes Pasos/logo-fude.jpg"
 },
 {
   "_id": {
     "$oid": "6575454819f0717a85403a96"
   },
-  "title": "Google",
-  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
-  "link": "#",
-  "image": "imagenes/imagenes Pasos/google.jpg"
+  "title": "Universidad  Abierta Interamericana",
+  "description": "La UAI, fundada en 1995, culmina el ciclo de un proyecto educativo que abarca desde la educación materna hasta la educación Superior Universitaria. y de Posgrado, integra la red de instituciones Vanguardia Educativa, entidad laica dedicada al asesoramiento e investigación educativa desde 1942.",
+  "link": "https://uai.edu.ar/bienestar/uai-en-tu-casa/capacitaciones-gratuitas/cursos-y-talleres-gratuitos/",
+  "image": "imagenes/imagenes Pasos/UniversidadInter.png"
 },
 {
   "_id": {
     "$oid": "6575454819f0717a85403a97"
   },
-  "title": "Google",
-  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
-  "link": "#",
-  "image": "imagenes/imagenes Pasos/google.jpg"
+  "title": "Undemy",
+  "description": "Udemy.com es una plataforma de aprendizaje en línea.",
+  "link": "https://www.udemy.com/?utm_source=aff-campaign&utm_medium=udemyads&LSNPUBID=OzpaRYwFVr0&ranMID=47901&ranEAID=OzpaRYwFVr0&ranSiteID=OzpaRYwFVr0-V0CIjXZTNrj5k81N_2i8Fg",
+  "image": "imagenes/imagenes Pasos/Udemy_logo.svg.png"
 },
 {
   "_id": {
     "$oid": "6575454819f0717a85403a98"
   },
-  "title": "Google",
-  "description": "Descubre más de 50 cursos online, formación digital y herramientas que te ayudarán a adquirir nuevas competencias o a impulsar tu carrera o negocio.",
-  "link": "#",
-  "image": "imagenes/imagenes Pasos/google.jpg"
+  "title": "EducaciónIT",
+  "description": "EducaciónIT, es una compañía dedicada a brindar cursos, carreras y capacitaciones de manera presencial y a distancia, líder a nivel nacional, con presencia en LATAM y países de Hispanoamérica.",
+  "link": "https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiK_PPZ8KCDAxXoYUgAHQYxARoYABAAGgJjZQ&ae=2&gclid=Cj0KCQiA4Y-sBhC6ARIsAGXF1g6KXrD6bDgilMFiNrKMYFrJv3ABWe6CKfs0C6yAcut1CaYJaTe9uc8aAlhuEALw_wcB&ohost=www.google.com&cid=CAESV-D2dVw0qzcec4qq8HIXeOKGE-iUF2oqmcyy_yKaTNAXksOuqyIzl5QC3GWkyw562FwYsCGpyI4DpD0H5_n25UU2Q516qqnTB7UVxLRMLpL8YKFO3iQmlA&sig=AOD64_0lXxEt7zNpP10nbqPOZcpxgDjfrw&q&adurl&ved=2ahUKEwjBze3Z8KCDAxUTJbkGHWh0D90Q0Qx6BAgJEAM",
+  "image": "imagenes/imagenes Pasos/logo-og.jpg"
 }]
