@@ -1,0 +1,54 @@
+<div class="banner-container">
+    <video autoplay muted loop id="banner-video">
+        <source src="videos/banner2.mp4" type="video/mp4">
+        Tu navegador no admite el elemento de video.
+    </video>
+    <div class="banner-content">
+        <div class="video-text">
+            <p>Cursos Gratis</p>
+        </div>
+        <h2></h2>
+    </div>
+</div>
+<div id="contenedor">
+    <div id="contenidos">
+        <div class="columnas">
+            <div id="columna1">
+                {{#each cursos}}
+                    <div class="myCard">
+                        <div class="innerCard">
+                            <div class="frontSide">
+                                <img class="roundImage" src="{{this.image}}" alt="Imagen Redonda">
+                                <p>{{this.title}}</p>
+                            </div>
+                            <div class="backSide">
+                                <p class="title">{{this.description}}</p>
+                                <a href="{{this.link}}">
+                                    <button class="roundedButton">Ver más</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+            
+            <div id="columnaNoticias">
+                <div class="cabecera-noticias">
+                    <h2 class="titulo">Noticias</h2>
+                </div>
+                <div class="contenido-noticias">
+                    <!-- Aquí puedes agregar el contenido de tus noticias -->
+                    <p>Noticia 1</p>
+                </div>
+                <div class="contenido-noticias">
+                    <!-- Aquí puedes agregar el contenido de tus noticias -->
+                    <p>Noticia 2</p>
+                </div>
+                <div class="contenido-noticias">
+                    <!-- Aquí puedes agregar el contenido de tus noticias -->
+                    <p>Noticia 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

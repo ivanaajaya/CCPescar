@@ -1,55 +1,41 @@
-/* Estilos Generales de Página */
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-h1 {
-  text-align: center;
-}
-.contenedor-imagen {
-  position: relative;
-  width: 600px;
-  height: 400px;
-}
-.imagen {
-  width: 230%;
-  height: auto;
-  object-fit: cover;
-}
-.barra-busqueda {
-  position: absolute;
-  top: 94%;
-  left: 57%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 18.5px;
-  background-color: white;
-  border: none;
-  border-radius: 8px;
-  outline: none;
-  font-size: 23px;
-}
-.boton-busqueda {
-  position: absolute;
-  top: 79.5%;
-  right: -14%;
-  width: 9%;
-  padding: 15px;
-  background-color: #5f49c0;
-  color: #fff;
-  border: 1px solid #2980b9;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 20px;
+
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-/* Líneas Laterales */
+body {
+  background-color: #ffffff;
+  height: 100vh;
+  
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------------------- baner------------------------------------------- */
+.banner-container img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* Para manejar compatibilidad con versiones antiguas de Internet Explorer */
+}
+.estilo1 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.estilo2 {
+  color: blue;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+/* Estilo para las líneas laterales */
 .lineas-laterales {
   display: flex;
   align-items: center;
   width: 100%;
 }
+
 .linea {
   flex-grow: 1;
   height: 5px;
@@ -57,13 +43,14 @@ h1 {
   margin: 0 30px;
 }
 
-/* Contenedor de Botones */
 .boton-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin: 20px;
 }
+
+/* Estilo para los botones */
 button {
   padding: 5px 15px;
   font-size: 16px;
@@ -72,9 +59,19 @@ button {
   align-items: flex-start;
   cursor: pointer;
   border-radius: 5%;
-  border-color: #c7ccd1;
+  border-color:#c7ccd1;
   margin: 5%;
+  height: 70px; /* Cambiar la altura de los botones */
 }
+button img {
+  max-width: 100%;
+  max-height: 100%; /* Establece la altura máxima del 100% del contenedor */
+  height: auto;
+  border-radius: 0; /* Elimina el borde redondeado */
+  margin-right: 12px;
+}
+
+
 .texto-azul {
   margin: 0;
   color: blue;
@@ -90,51 +87,167 @@ button {
   margin: 3%;
   text-align: left;
 }
+/* Estilo para la mitad superior de la imagen */
+.imagen-superior {
+  width:max-content;
+  height: auto;
+}
 
-/* Contenedor de Artículos */
+/* Estilo para la mitad inferior del texto */
+.texto-inferior {
+  margin-top: 5px;
+}
+
+.texto-azul {
+  margin: 0;
+  color: blue;
+}
+.texto-celeste {
+  margin: 0;
+  color: rgb(0, 217, 255);
+  font-weight: 900;
+}
+.texto-izquierdo {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 3%;
+  text-align: left;
+}
+.container-carusel {
+  background-color: #92D5E04D;
+  padding: 30px; /* Agrega un poco de espacio alrededor del contenedor */
+}
+.contenedor-principal {
+  position: relative;
+}
 .tienda-container {
-  padding: 0px;
-  font-size: 15px;
   display: flex;
-  grid-template-columns: repeat(3, 2fr);
+  flex-wrap: wrap;
   gap: 20px;
-  margin: 0px;
-  overflow: initial;
-  white-space: unset;
-  transition: transform 0.5s ease;
+  justify-content: space-between;
 }
+
 .articulo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-  border: 0.5px solid #ccc;
-  cursor: pointer;
+  flex-basis: calc(33.33% - 20px); /* 3 columnas, con espacio entre ellas */
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 20px; /* Margen inferior más grande */
 }
-.navegador {
-  justify-content: center;
-  margin: 20px 0;
+
+/* Estilos para la imagen redonda */
+.roundImage {
+  width: 55%; /* Centra la imagen */
+  height: auto;
+  border-radius: 45%;
+  display: block;
+  margin: 10px auto; /* Centra la imagen y agrega margen superior e inferior */
 }
-.boton-navegacionder,
-.boton-navegacioniz {
-  padding: 35px;
-  margin: 0 5px;
-  cursor: pointer;
-  background-color: blue;
-  color: #fff;
-  border: none;
+
+/* Estilos para los textos y botón en el lado posterior */
+.title {
   font-size: 16px;
-  border-radius: 50%;
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.descripcion {
+  font-size: 12px; /* Ajusta el tamaño del texto */
+  margin: 10px;
+  text-align: center;
+}
+
+.roundedButton {
+  background-color: #ffffff; /* Fondo blanco */
+  color: #3498db; /* Texto y borde azules */
+  padding: 8px 16px;
+  border: 1px solid #3498db; /* Borde azul */
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin: 10px auto 15px; /* Margen superior, centrado horizontalmente y sin margen inferior */
+}
+
+/* Estilo para la navegación de botones */
+.navegacion-botones {
   position: absolute;
-}
-.boton-navegacionder {
-  float: left;
-}
-.boton-navegacioniz {
-  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos al inicio y al final del contenedor */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  padding: 0 5px; /* Añade un poco de espacio en los extremos */
 }
 
+.navegacion-botones button {
+  background-color: #0c588b;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 40px; /* Cambiar la altura de los botones */
+}
 
+.navegacion-botones button:hover {
+  background-color: #0f2432;
+}
 
+/********************CONFIGURACION DE LAS CATEGORIAS PARA PANTALLAS CELULARES*********************/
+/* Estilo para los botones en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .boton-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Cambia el tamaño de los botones al contenedor */
+    gap: 5px; /* Reducir el espacio entre los botones */
+    margin: 10px; /* Ajustar el margen */
+  }
+
+  button {
+    padding: 8px 8px; /* Ajustar el padding de los botones */
+    font-size: 8px; /* Cambiar el tamaño del texto de los botones */
+    width: 100%; /* Ocupar el ancho completo del contenedor */
+    height: 50px; /* Cambiar la altura de los botones */
+  }
+  button img {
+    max-width: 45%; /* Hace que las imágenes se ajusten al ancho del botón */
+    max-height: 100%; /* Establece la altura máxima del 100% del contenedor */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-right: 5px;
+  }
+}
+
+/* Estilo para los botones en pantallas medianas (800px - 900px) */
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  button {
+    font-size: 11px;
+    height: 40px; /* Cambiar la altura de los botones */
+  }
+
+  button img {
+    /* Tus estilos específicos para las imágenes dentro de los botones en este rango */
+    max-width: 30%;
+    max-height: 100%;
+    height: auto;
+    margin-right: 2px;
+  }
+  .navegacion-botones button{
+    height: 35px;
+    width: 30px;
+  }
+}
+/* Estilo para los botones en pantallas menores a 800px */
+@media screen and (max-width: 799px) {
+  /* Estilos para los botones de navegación */
+  .navegacion-botones button {
+    height: 25px; /* Cambiar la altura de los botones de navegación */
+    width: 19px; /* Cambiar el ancho de los botones de navegación */
+    font-size: 10px; /* Cambiar el tamaño del texto dentro de los botones */
+  }
+}
 

@@ -1,54 +1,154 @@
-<div class="banner-container">
-    <video autoplay muted loop id="banner-video">
-        <source src="videos/banner2.mp4" type="video/mp4">
-        Tu navegador no admite el elemento de video.
-    </video>
-    <div class="banner-content">
-        <div class="video-text">
-            <p>Cursos Gratis</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Aquí va el enlace a tu archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/stylesCursos.css">
+    <!-- Otros elementos del encabezado -->
+</head>
+
+    <div class="banner-container">
+        <img src="./imagenes/bannercurso.jpg" alt="Profesores">
+    </div>
+    <div class="lineas-laterales">
+        <!-- Línea izquierda -->
+        <div class="linea"></div>
+
+        <!-- Título en medio de líneas -->
+        <h1><span class="estilo1">EXPLORA</span> <span class="estilo2">CATEGORIAS</span></h1>
+
+        <!-- Línea derecha -->
+        <div class="linea"></div>
+    </div>
+    <div class="boton-container">
+        <!-- Botón con imagen y texto -->
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/programacion.jpg" alt="Programacion">
+        <strong>Programacion</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/ProgramacionWeb.jpg" alt="Descripción de la imagen" >
+        <strong>Desarrollo Web</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/matematica.jpg" alt="Descripción de la imagen" >
+        <strong>Matematica</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/diseño.jpg" alt="Descripción de la imagen" >
+        <strong>Diseño Grafico</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/marketing.jpg" alt="Descripción de la imagen" >
+        <strong>Marketing Digital</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/negocios.jpg" alt="Descripción de la imagen" >
+        <strong>Negocios</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/idiomas.jpg" alt="Descripción de la imagen" >
+        <strong>Idiomas</strong>
+    </button>
+    <button onclick="clicBoton()">
+        <img src="./imagenes/galeria/desarrollopersonal.jpg" alt="Descripción de la imagen" >
+        <strong>Desarrollo Personal</strong>
+    </button>
+    </div>
+        <h1 class="texto-izquierdo">Navega por</h1> <h1 class="texto-izquierdo texto-azul">nuestros <strong class="texto-celeste">cursos</strong></h1>
+<div class="contenedor-principal">
+    <div class="container-carusel"> 
+        <div class="tienda-container">
+            {{#each cursos}}
+                <div class="articulo">
+                    <img class="roundImage" src="{{this.image}}" alt="Imagen Redonda">
+                    <p class="title">{{this.title}}</p>
+                    <p class="descripcion">{{this.description}}</p>
+                    <a href="{{this.link}}">
+                        <button class="roundedButton">Ver más</button>
+                    </a>
+                </div>
+            {{/each}}
         </div>
-        <h2></h2>
+    </div>
+
+    <div class="navegacion-botones">
+        <button onclick="navegar('anterior')"><</button>
+        <button onclick="navegar('siguiente')">></button>
     </div>
 </div>
-<div id="contenedor">
-    <div id="contenidos">
-        <div class="columnas">
-            <div id="columna1">
-                {{#each cursos}}
-                    <div class="myCard">
-                        <div class="innerCard">
-                            <div class="frontSide">
-                                <img class="roundImage" src="{{this.image}}" alt="Imagen Redonda">
-                                <p>{{this.title}}</p>
-                            </div>
-                            <div class="backSide">
-                                <p class="title">{{this.description}}</p>
-                                <a href="{{this.link}}">
-                                    <button class="roundedButton">Ver más</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                {{/each}}
-            </div>
-            
-            <div id="columnaNoticias">
-                <div class="cabecera-noticias">
-                    <h2 class="titulo">Noticias</h2>
-                </div>
-                <div class="contenido-noticias">
-                    <!-- Aquí puedes agregar el contenido de tus noticias -->
-                    <p>Noticia 1</p>
-                </div>
-                <div class="contenido-noticias">
-                    <!-- Aquí puedes agregar el contenido de tus noticias -->
-                    <p>Noticia 2</p>
-                </div>
-                <div class="contenido-noticias">
-                    <!-- Aquí puedes agregar el contenido de tus noticias -->
-                    <p>Noticia 3</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+    
+    <!--PIE DE PAGINA -->
+    <script src="javascript/footer.js"></script>
+    <script>
+    function cargarSiguiente() {
+    // Ajusta estos valores según la lógica de tu base de datos
+    const elementosPorGrupo = 6;
+    const totalElementos = cursos.length;
+
+    // Verifica si hay más elementos para cargar
+    if (grupoActual * elementosPorGrupo < totalElementos) {
+        const inicio = grupoActual * elementosPorGrupo;
+        const fin = Math.min((grupoActual + 1) * elementosPorGrupo, totalElementos);
+
+        // Renderiza el siguiente grupo de elementos
+        const nuevosElementos = cursos.slice(inicio, fin);
+        renderizarElementos(nuevosElementos);
+
+        // Actualiza el número del grupo actual
+        grupoActual++;
+    }
+}
+
+    function renderizarElementos(elementos) {
+    const tiendaContainer = document.querySelector('.tienda-container');
+
+    // Limpia el contenido existente en el contenedor
+    tiendaContainer.innerHTML = '';
+
+    // Itera sobre los nuevos elementos
+    elementos.forEach(elemento => {
+        // Crea un nuevo elemento div para cada curso
+        const nuevoElemento = document.createElement('div');
+        nuevoElemento.classList.add('articulo');
+
+        // Crea la imagen
+        const imagen = document.createElement('img');
+        imagen.classList.add('roundImage');
+        imagen.src = elemento.image;
+        imagen.alt = 'Imagen Redonda';
+
+        // Crea el párrafo del título
+        const titulo = document.createElement('p');
+        titulo.classList.add('title');
+        titulo.textContent = elemento.title;
+
+        // Crea el párrafo de la descripción
+        const descripcion = document.createElement('p');
+        descripcion.classList.add('descripcion');
+        descripcion.textContent = elemento.description;
+
+        // Crea el enlace al curso
+        const enlace = document.createElement('a');
+        enlace.href = elemento.link;
+
+        // Crea el botón "Ver más"
+        const boton = document.createElement('button');
+        boton.classList.add('roundedButton');
+        boton.textContent = 'Ver más';
+
+        // Agrega la imagen, el título, la descripción y el botón al elemento
+        nuevoElemento.appendChild(imagen);
+        nuevoElemento.appendChild(titulo);
+        nuevoElemento.appendChild(descripcion);
+        enlace.appendChild(boton);
+        nuevoElemento.appendChild(enlace);
+
+        // Agrega el nuevo elemento al contenedor de la tienda
+        tiendaContainer.appendChild(nuevoElemento);
+    });
+}
+
+</script>
+</html>
