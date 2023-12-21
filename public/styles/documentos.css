@@ -6,23 +6,36 @@
     align-items: center;
 }
 
+/* ------------------------------------------- IMAGEN BANNER------------------------------------------- */
+.banner-container {
+    width: 100%;
+    text-align: center; /* Centra la imagen horizontalmente */
+    background-color: #f2f2f2; /* Color de fondo del contenedor, puedes cambiarlo a tu elección */
+}
+
+.banner-container img {
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
 /*******************************************ESTILOS PARA LOS DOCUMENTOS****************************************************/
 .body2 {
     background-color: #d3d3d3b5;
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
     height: 120vh;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0; /* Elimina el espacio de relleno */
-    position: relative;
 }
 .rectangulo {
     width: 80%;
     margin: 0 auto;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-bottom: 40px; /* Agregar margen inferior para separar los contenedores */
+    margin-bottom: 30px; /* Agregar margen inferior para separar los contenedores */
 }
 .documentos {
     display: flex; /* Usar flexbox para la distribución horizontal */
@@ -103,70 +116,37 @@
     }
     .filtro-buttons {
         display: block; /* Muestra los botones para pantallas grandes */
-        margin: 20px; /* Margen con respecto a los documentos */
     }
     .filtro {
-        margin-top: 100px;
+        margin-top: 40px;
         display: inline-block;
         padding: 10px 30px; /* Alto de los filtros y largo */
         margin-right: 0px; /* Margen lateral entre los botones */
-        background-color: #2a7db4;
         color: white;
         text-decoration: none;
         border: none;
         border-radius: 10px;
         cursor: pointer;
         transition: background-color 0.3s;
+        margin-bottom: 20px; /* Margen con respecto a los documentos */
     }
     .filtro:hover {
         opacity: 0.7; /* Cambio de opacidad al pasar el mouse */
     }
 }
 
+
 /* Estilos para pantallas pequeñas */
 @media (max-width: 600px) {
     .filtro-buttons {
-        display: none; /* Oculta los botones para pantallas pequeñas */
+        display: flex;
+        flex-wrap: wrap; /* Permitir que los elementos se envuelvan en varias líneas */
+        justify-content: space-between; /* Espacio uniformemente distribuido entre los elementos */
     }
-    .filtro-dropdown {
-        display: block; /* Muestra el menú desplegable para pantallas pequeñas */
-        margin-top: 90px; /* Ajusta el margen superior del menú desplegable */
-        margin-bottom: 30px;
-        margin-left: 0px; /* Ajusta el margen lateral del menú desplegable */
-        font-size: 10px; /* Ajusta el tamaño del texto del menú desplegable */
-        border: none;
-        border-radius: 10px;
-    }
-    .filtro-content {
-        display: none; /* Oculta el contenido del menú desplegable por defecto */
-        position: absolute;
-        background-color: #2a7db4; /* Color de fondo del menú desplegable */
-        border-radius: 10px;
-        overflow: hidden;
-        z-index: 1;
-    }
-    .filtro-toggle {
-        background-color: #2a7db4; /* Color de fondo del botón de alternar */
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        width: 100%;
-        padding: 10px 0;
-        text-align: center;
-    }
-    .filtro-toggle:hover {
-        opacity: 0.7; /* Cambio de opacidad al pasar el mouse */
-    }
-    .filtro-content.show {
-        display: block; /* Muestra el contenido cuando se hace clic en el botón de alternar */
-    }
-    /* Resto de los estilos de los filtros dentro del menú desplegable */
-    .filtro-content .filtro {
-        padding: 10px 0;
-        text-align: center;
-    }
-    .filtro-content .filtro:hover {
-        background-color: #1b5a99; /* Cambio de color al pasar el mouse */
+
+    .filtro {
+        width: calc(50% - 10px); /* Ancho del 50% menos el margen entre los botones */
+        margin-bottom: 10px; /* Espaciado entre los botones en vertical */
     }
 }
+

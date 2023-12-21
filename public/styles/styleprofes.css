@@ -79,7 +79,7 @@ p{
 
 .foto {
     flex: 1 1 230px;
-    /*para modidicar el espacio de la foto*/
+    /para modidicar el espacio de la foto/
 }
 
 .foto img {
@@ -94,7 +94,7 @@ p{
 
 /* ---------------------------------- */
 .contenido {
-    flex: 3 1 300px;
+    flex: 3 2 300px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -138,7 +138,7 @@ p{
 }
 
 .socials li a img {
-    width: 100%;/*clamp(1.5rem, 2.0vw, 2rem);*/
+    width: 100%;/clamp(1.5rem, 2.0vw, 2rem);/
     height: clamp(1.5rem, 2.0vw, 2rem);
     stroke-width: 2px;
 }

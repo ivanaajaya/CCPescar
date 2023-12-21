@@ -1,0 +1,419 @@
+[{
+  "_id": {
+    "$oid": "657651c413c143fd664892f5"
+  },
+  "title": "INGENIERIA EN INFORMATICA",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Filosofía",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+        },
+        {
+          "text": "Algebra lineal I ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+        },
+        {
+          "text": "Analisis matematico I",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+        },
+        {
+          "text": "Quimica para ingenieros",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+        },
+        {
+          "text": "Prueba de suficiencia en comunicacion oral y escrita",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=sufOralEsc.json"
+        },
+        {
+          "text": "Prueba de suficiencia de idioma inglés",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=ingles.json"
+        },
+        {
+          "text": "Algebra lineal II",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraII.json"
+        },
+        {
+          "text": "Analisis matematico II ",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_II.json"
+        },
+        {
+          "text": "Introduccion a la Informatica",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=introdInfo.json"
+        },
+        {
+          "text": "FISICA I",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fisicaI.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Teología",
+          "href": ""
+        },
+        {
+          "text": "Estructura de datos y algoritmos",
+          "href": ""
+        },
+        {
+          "text": "Arquitectura de computadores",
+          "href": ""
+        },
+        {
+          "text": "Analisis matemático III",
+          "href": ""
+        },
+        {
+          "text": "Lenguajes I",
+          "href": ""
+        },
+        {
+          "text": "Física II",
+          "href": ""
+        },
+        {
+          "text": "Probabilidad y estadistica I",
+          "href": ""
+        },
+        {
+          "text": "Calculo avanzado",
+          "href": ""
+        },
+        {
+          "text": "Lenguajes II",
+          "href": ""
+        },
+        {
+          "text": "Sistemas I",
+          "href": ""
+        },
+        {
+          "text": "Introducción a los sistemas operativos",
+          "href": ""
+        },
+        {
+          "text": "Fisica aplicada",
+          "href": ""
+        },
+        {
+          "text": "Economia y finanzas",
+          "href": ""
+        },
+        {
+          "text": "Probabilidad y estadistica II",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Sistemas Operativos",
+          "href": ""
+        },
+        {
+          "text": "Sistemas II",
+          "href": ""
+        },
+        {
+          "text": "Redes I",
+          "href": ""
+        },
+        {
+          "text": "Doctrina social de la iglesia",
+          "href": ""
+        },
+        {
+          "text": "Analisis Numerico",
+          "href": ""
+        },
+        {
+          "text": "Lenguajes III",
+          "href": ""
+        },
+        {
+          "text": "Bases de datos II",
+          "href": ""
+        },
+        {
+          "text": "Proyectos Informaticos I",
+          "href": ""
+        },
+        {
+          "text": "Practica profesional supervisada técnico",
+          "href": ""
+        },
+        {
+          "text": "Etica profesional",
+          "href": ""
+        },
+        {
+          "text": "Lenguajes IV",
+          "href": ""
+        },
+        {
+          "text": "Bases de datos II",
+          "href": ""
+        },
+        {
+          "text": "Proyectos Informaticos I",
+          "href": ""
+        },
+        {
+          "text": "Higiene y seguridad",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "cuarto año",
+      "links": [
+        {
+          "text": "Ingenieria de Software",
+          "href": ""
+        },
+        {
+          "text": "Sistemas III",
+          "href": ""
+        },
+        {
+          "text": "Redes II",
+          "href": ""
+        },
+        {
+          "text": "Bases de datos III",
+          "href": ""
+        },
+        {
+          "text": "Investigación Operativa I",
+          "href": ""
+        },
+        {
+          "text": "Direccion de proyectos",
+          "href": ""
+        },
+        {
+          "text": "Compiladores",
+          "href": ""
+        },
+        {
+          "text": "Analisis de datos",
+          "href": ""
+        },
+        {
+          "text": "Investigación Operativa II",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Quinto año",
+      "links": [
+        {
+          "text": "Modelos y simulacion",
+          "href": ""
+        },
+        {
+          "text": "Sistemas Inteligentes",
+          "href": ""
+        },
+        {
+          "text": "Auditoria de sistemas",
+          "href": ""
+        },
+        {
+          "text": "Tecnicas avanzadas de analisis de datos",
+          "href": ""
+        },
+        {
+          "text": "Recursos Humanos",
+          "href": ""
+        },
+        {
+          "text": "Ingenieria legal",
+          "href": ""
+        },
+        {
+          "text": "Practica profesional supervisada Ingeniero",
+          "href": ""
+        },
+        {
+          "text": "Proyecto de grado",
+          "href": ""
+        },
+        {
+          "text": "Seguridad Informática",
+          "href": ""
+        },
+        {
+          "text": "Estrategia e Informática",
+          "href": ""
+        },
+        {
+          "text": "Redes III",
+          "href": ""
+        },
+        {
+          "text": "Legislacion informatica",
+          "href": ""
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "657651c413c143fd664892f6"
+  },
+  "title": "INGENIERIA EN TELECOMUNICACIONES",
+  "sections": [
+    {
+      "title": "Primer año",
+      "links": [
+        {
+          "text": "Sistemas de Representacion",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-telecom&materia=sistemRepres.json"
+        },
+        {
+          "text": "Introduccion a la programacion",
+          "href": "plantilla_MatDoc.html?carrera=ingenieria-telecom&materia=introdProgram.json"
+        }
+      ]
+    },
+    {
+      "title": "Segundo año",
+      "links": [
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Tercer año",
+      "links": [
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Cuarto año",
+      "links": [
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Quinto año",
+      "links": [
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Material Adicional",
+      "links": [
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        },
+        {
+          "text": "Fundamentos de Informatica",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}]

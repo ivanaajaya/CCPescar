@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Aquí va el enlace a tu archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
+    <!-- Otros elementos del encabezado -->
+</head>
+<body>
 <div class="banner-container">
         <video autoplay muted loop id="banner-video">
             <source src="videos/educationIt.webm" type="video/mp4">
@@ -116,6 +124,7 @@
         <section class="popup-section">
             <p>Llena a continuación los datos y sube los documentos que quieras compartir</p>
             <form id="fileForm" action="https://formsubmit.co/compartiendoconocimientos23@gmail.com" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="_next" value="http://localhost:3000/"> <!-- Agregado -->
                 <label for="apodo">Apodo:</label>
                 <input type="text" id="apodo" name="apodo" required>
     
@@ -145,3 +154,20 @@
         </section>
     </div>
     <script defer src="javascript/index.js"></script>
+</body>
+</html>
+<script>
+const popupButton = document.getElementById('popupButton');
+const popup = document.getElementById('popup');
+const closeButton = document.getElementById('closeButton');
+const fileInput = document.getElementById('attachment');
+const uploadedFilesContainer = document.getElementById('uploaded-files-container'); // Nuevo
+const dragDropText = document.querySelector('.drag-drop-text');
+closeButton.addEventListener('click', () => {
+    popup.style.display = 'none';
+});
+popupButton.addEventListener('click', () => {
+    popup.style.display = 'block';
+});
+
+</script>

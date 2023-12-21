@@ -1,6 +1,6 @@
-/* ----------------------- ESTILOS GENERALES DE PAGINA INICIO ----------------------- */
+/*------------------ ESTILOS GENERALES DE PAGINA INICIO ----------------------- */
 body {
-    background:  #e7f2ff;
+    background:  #ffffff;
     margin: 0;
     padding: 0;
     font-family: "Arial", sans-serif; /* Cambia "Arial" por el nombre de la fuente que desees */
@@ -23,7 +23,7 @@ body {
 /* Estilos para la barra de búsqueda */
 .search-container {
     position: absolute;
-    margin-top: 25%;
+    margin-top: 30%;
     left: 0;
     right: 0;
     text-align: center;
@@ -34,7 +34,8 @@ body {
 #search-input {
     padding: 5px;
     border: none;
-    width: 25%; /* Ajusta el valor según el ancho deseado */
+    height: 30px;
+    width: 30%; /* Ajusta el valor según el ancho deseado */
 }
 
 /* Estilos para el botón de búsqueda */
@@ -42,6 +43,7 @@ body {
     padding: 5px 10px;
     background-color: #007bff; /* Color de fondo del botón, puedes cambiarlo */
     border: none;
+    height: 40px;
     color: #fff; /* Color de texto del botón */
     cursor: pointer;
 }
@@ -50,16 +52,16 @@ body {
 /* Agrega estos estilos al final de tu archivo CSS actual */
 .contenedor-secciones {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Crea tres columnas */
+    grid-template-columns: repeat(3, 2fr); /* Crea tres columnas */
     padding: 40px;
 }
 .anio {
     background-color: #fff; /* Fondo blanco */
     border: 1px solid #ccc; /* Borde de 1 píxel sólido en color gris claro */
-    border-radius: 10px; /* Bordes redondeados */
+    border-radius: 20px; /* Bordes redondeados */
     margin: 10px 10px 10px 0; /* Margen superior, derecho, inferior e izquierdo de 10 píxeles */
-    padding: 10px; /* Espaciado interior de 10 píxeles */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    padding: 20px; /* Espaciado interior de 10 píxeles */
+    box-shadow: 2px 8px 5px rgba(165, 165, 165, 0.6); /* Sombra suave */
 }
 
 h2,h1{
@@ -87,15 +89,54 @@ h2,h1{
     height: 32px; /* Alto deseado de la imagen */
 }
 
-/* Estilos para las secciones en pantallas más pequeñas */
-@media screen and (max-width: 700px) {
+/* Estilos para la barra de búsqueda en pantallas más pequeñas */
+@media screen and (max-width: 834px) {
+    .search-container {
+        margin-top: 200px; /* Ajusta el margen superior */
+    }
+
+    #search-input {
+        width: 70%; /* Reduce el ancho del input para adaptarse mejor */
+        max-width: 250px; /* Establece un ancho máximo para evitar que se estire demasiado */
+    }
+
+    #search-button {
+        margin-top: 10px; /* Ajusta el espacio entre el input y el botón */
+    }
+}
+
+/* Estilos para las tarjetas en pantallas más pequeñas (menores a 428px) */
+@media screen and (max-width: 429px) {
     .contenedor-secciones {
-        grid-template-columns: repeat(2, 1fr); /* Cambia a dos columnas en pantallas más pequeñas */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Cambia a una sola columna */
+        padding: 20px; /* Reduce el padding para permitir más espacio */
     }
-    h2,h1{
-        font-size: 15px;
+
+    .anio {
+        margin: 10px 0; /* Reduce el margen superior e inferior */
     }
-    ul{
-        font-size: 12px;
+
+    .search-container {
+        margin-top: 100px; /* Ajusta el margen superior */
     }
+
+    #search-input {
+        width: 60%; /* Reducir aún más el ancho del input */
+        max-width: 100px; /* Ajustar el ancho máximo */
+        font-size: 9px; /* Reducir el tamaño de fuente para dispositivos muy pequeños */
+        height: 10px; /* Reducir la altura del input */
+    }
+
+    #search-button {
+        padding: 2px 5px; /* Reducir el padding del botón para hacerlo más compacto */
+        font-size: 9px; /* Reducir el tamaño de fuente del botón */
+        height: 20px; /* Reducir la altura del botón */
+    }
+}
+@media screen and (max-width: 400px) {
+    .search-container {margin-top: 90px; /* Ajusta el margen superior */}
+}
+@media screen and (max-width: 330px) {
+    .search-container {margin-top: 70px; /* Ajusta el margen superior */}
 }

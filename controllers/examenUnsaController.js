@@ -2,64 +2,58 @@ import ExamenUnsa from "../models/examenUnsaModel.js";
 import CarreraUnsa from "../models/carreraUnsaModel.js"; // Asegúrate de ajustar la ruta según tu estructura de archivos
 import { config, notFound, resolve, getQuery} from "../utils/helpers.js";
 
-export const getExamenesUnsaall = (req, res) => {
-  const query = getQuery(req);
+// export const getExamenesUnsaall = (req, res) => {
+//   const query = getQuery(req);
 
-  ExamenUnsa.find(query)
-    .then((examenesUnsa) => 
-        examenesUnsa.length > 1 ?
-        res.render('layouts/examenes-unsa', {...config, examenesUnsa: resolve(examenesUnsa)}) :
-        res.render('layouts/404', {...config, err: notFound})
-    )
-    .catch((err) => res.render('layouts/404', {...config, err: err}));
-};
-
-
+//   ExamenUnsa.find(query)
+//     .then((examenesUnsa) => 
+//         examenesUnsa.length > 1 ?
+//         res.render('layouts/examenes-unsa', {...config, examenesUnsa: resolve(examenesUnsa)}) :
+//         res.render('layouts/404', {...config, err: notFound})
+//     )
+//     .catch((err) => res.render('layouts/404', {...config, err: err}));
+// };
 
 // export const getExamenesUnsaByCarrera = async (req, res) => {
-//     const query = getQuery(req);
-  
-//     try {
-//       // Recorre los enlaces de la carrera y busca los exámenes correspondientes
-//       const examenesUnsa = await ExamenUnsa.find({ text: { $in: carrera.sections.flatMap(section => section.links.map(link => link.text)) } });
-  
-//       // Renderiza la vista con los exámenes encontrados
-//       res.render('layouts/examenes-unsa', {...config, examenesUnsa: resolve(examenesUnsa)});
-//     } catch (error) {
-//       console.error(error);
-//       res.render('layouts/404', {...config, err: error});
+//   const carreraId = req.params.carreraId;
+
+//   try {
+//     // Recorre los enlaces de la carrera y busca los exámenes correspondientes
+//     const examenesUnsa = await ExamenUnsa.find({ _id: { $in: carreraId } });
+
+//     if (examenesUnsa.length > 0) {
+//       res.render('layouts/examenes-unsa', {...config, examenesUnsa: resolve(examenesUnsa)}) 
+//       // res.json({ examenesUnsa });
+//     } else {
+//       // res.status(404).json({
+//       //   message: "No se encontraron exámenes",
+//       //   error: "Lamentablemente no se encontraron exámenes en la base de datos",
+//       // });
+//       res.render('layouts/404', {...config, err: notFound})
 //     }
-//   };
-
-
-
-
-// export const getExamenesUnsa = async (req, res) => {
-//     const { materiaId } = req.query;
-
-//     // Verifica si se proporcionó la información necesaria
-//     if (!materiaId) {
-//         console.log("Se requiere el ID de la materia");
-//         return res.render('layouts/404', { ...config, err: "Se requiere el ID de la materia" });
-        
-//     }
-
-//     try {
-//         console.log("sssssssssssssssssss", { materiaId })
-//         // Lógica para consultar exámenes de la materia seleccionada por su ID
-//         // Utiliza el campo de referencia a la materia en tu modelo de examen
-//         const examenes = await ExamenUnsa.find({ "_id": materiaId });
-
-//         if (examenes.length > 0) {
-//             console.log("passoooooooooooooooo", { materiaId })
-//             // Si hay exámenes para la materia seleccionada, renderiza la vista correspondiente
-//             res.render('layouts/examenes-unsa', { ...config, examenes: resolve(examenes) });
-//         } else {
-//             // Si no hay exámenes, muestra un mensaje de not found
-//             res.render('layouts/404', { ...config, err: "No se encontraron exámenes para la materia seleccionada" });
-//         }
-//     } catch (error) {
-//         // Si hay un error durante la consulta, muestra un mensaje de error
-//         res.render('layouts/404', { ...config, err: error.message });
-//     }
+//   } catch (error) {
+//     res.status(500).json({ message: error.message });
+//   }
 // };
+
+export const getExamenesUnsaByCarrera = async (req, res) => {
+  const carreraId = req.params.carreraId;
+
+  try {
+    // Find subjects by carreraId
+    const examenesUnsa = await ExamenUnsa.find({ _id: { $in: carreraId } });
+
+    if (examenesUnsa.length > 0) {
+      res.render('layouts/examenes-unsa', { ...config, examenesUnsa: resolve(examenesUnsa) });
+      //res.json({ examenesUnsa });
+    } else {
+      // res.status(404).json({
+      //   message: "No se encontraron exámenes",
+      //   error: "Lamentablemente no se encontraron exámenes en la base de datos",
+      // });
+      res.render('layouts/404', {...config, err: notFound})
+    }
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};

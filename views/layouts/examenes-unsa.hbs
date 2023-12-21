@@ -1,22 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" type="text/css" href="/styles/documentos.css">
+</head>
+
 <section>
-    <div class="banner-container">
-        <img src="imagenes/banner2.png" alt="">
-    </div>
-    <div id="documentos-container" style="color: aliceblue;">
-        {{#each examenesUnsa}}
-            <div class="rectangulo">
-                <div class="documentos">
-                    <div class="icono_documento">
-                        <img src="imagenes/iconos/pdf.svg" alt="">
-                    </div>
-                    <div class="contenido_documento">
-                        <h2 class="documento-title">{{this.titulo}}: {{this.text}}</h2>
-                        <p>{{this.profesor}}</p>
-                        <p>{{this.descripcion}}</p>
-                        <a href="{{this.enlace}}" class="ver-archivo">Ver Archivo</a>
-                    </div>
-                </div>
+  <div class="banner-container">
+    <img src="imagenes/banner2.png" alt="">
+  </div>
+  <div id="documentos-container">
+    {{#each examenesUnsa}}
+      {{#each this}}
+        {{!-- <h2>{{@key}}</h2> <!-- Display the key, i.e., subject name --> --}}
+        {{#each this}}
+          <div class="rectangulo">
+            <div class="documentos">
+              <div class="icono_documento">
+                <img src="imagenes/iconos/pdf.svg" alt="">
+              </div>
+              <div class="contenido_documento">
+                <h2 class="documento-title">{{this.titulo}}: {{this.text}}</h2>
+                <p>{{this.profesor}}</p>
+                <p>{{this.descripcion}}</p>
+                <a href="/examenes-unsa/carrera/{{this.enlace}}" class="ver-archivo">Ver Archivo</a>
+              </div>
             </div>
+          </div>
         {{/each}}
-    </div>
+      {{/each}}
+    {{/each}}
+  </div>
 </section>
+
+</html>
