@@ -1,6 +1,6 @@
 import ExamenUnsa from "../models/examenUnsaModel.js";
-import CarreraUnsa from "../models/carreraUnsaModel.js"; // Asegúrate de ajustar la ruta según tu estructura de archivos
-import { config, notFound, resolve, getQuery} from "../utils/helpers.js";
+
+import { config, notFound, resolve} from "../utils/helpers.js";
 
 // export const getExamenesUnsaall = (req, res) => {
 //   const query = getQuery(req);

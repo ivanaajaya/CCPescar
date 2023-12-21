@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "658392b346aed974c7e6e3d3"
+  },
+  "Algebra Lineal 1": [
+    {
+      "text": "Algebra Lineal 1 ",
+      "tipo": "Examenes",
+      "titulo": "Examen final",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Examen final TEMA A",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1ejZnnUa5_0Y8C3AIOf9NJ1QVbTV4tyXW"
+    },
+    {
+      "text": "Algebra Lineal 1 ",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: PARCIAL 1 ",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1FZn-Gv7BdFR4LZD7b38q6Y3d_QaNKdmj"
+    },
+    {
+      "text": "Algebra Lineal 1 ",
+      "tipo": "parciales",
+      "titulo": "PARCIAL 2",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 2",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1FZn-Gv7BdFR4LZD7b38q6Y3d_QaNKdmj"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "658392b346aed974c7e6e3d4"
+  },
+  "Analisis Matematico 1": [
+    {
+      "text": "Analisis Matematico 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 practica",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1rakBUfocwoSCw7hEPAWZKfNiUAb-sWsE"
+    },
+    {
+      "text": "Analisis Matematico 1",
+      "tipo": "parciales",
+      "titulo": "Parcial 1",
+      "profesor": "Profesor:...........",
+      "descripcion": "Descripcion: Parcial 1 teoria",
+      "enlace": "https://drive.google.com/drive/u/2/folders/1rakBUfocwoSCw7hEPAWZKfNiUAb-sWsE"
+    }
+  ]
+}]

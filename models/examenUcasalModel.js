@@ -1,4 +1,3 @@
-
 import mongoose from "mongoose";
 
 const subjectSchema = new mongoose.Schema({
@@ -30,6 +29,6 @@ const subjectSchema = new mongoose.Schema({
   }],
 });
 
-const ExamenUnsa = mongoose.model("ExamenUnsa", subjectSchema, "examenes-unsa");
+const ExamenUcasal = mongoose.model("ExamenUcasal", subjectSchema, "examenes-ucasal");
 
-export default ExamenUnsa;
+export default ExamenUcasal;

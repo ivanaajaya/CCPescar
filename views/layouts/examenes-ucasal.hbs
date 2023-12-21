@@ -9,7 +9,7 @@
     <img src="imagenes/banner2.png" alt="">
   </div>
   <div id="documentos-container">
-    {{#each examenesUnsa}}
+    {{#each examenesUcasal}}
       {{#each this}}
         {{!-- <h2>{{@key}}</h2> <!-- Display the key, i.e., subject name --> --}}
         {{#each this}}
@@ -22,7 +22,7 @@
                 <h2 class="documento-title">{{this.titulo}}: {{this.text}}</h2>
                 <p>{{this.profesor}}</p>
                 <p>{{this.descripcion}}</p>
-                <a href="{{this.enlace}}" class="ver-archivo">Ver Archivo</a>
+                <a href="{{this.enlace}}">Ver Archivo</a>
               </div>
             </div>
           </div>

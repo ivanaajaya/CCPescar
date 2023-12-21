@@ -1,15 +1,48 @@
 //definición de modelo utilizando Mongoose, un ODM (Object-Document Mapper) 
 //Importa la biblioteca Mongoose para interactuar con MongoDB y definir modelos y esquemas.
 
-import mongoose from "mongoose";
+// import mongoose from "mongoose";
 
-const linkSchema = new mongoose.Schema({
+// const linkSchema = new mongoose.Schema({
+//   text: {
+//     type: String,
+//     required: true,
+//   },
+//   href: {
+//     type: String,
+//     required: true,
+//   },
+// });
+
+// const sectionSchema = new mongoose.Schema({
+//   title: {
+//     type: String,
+//     required: true,
+//   },
+//   links: [linkSchema],
+// });
+
+// const carreraSchema = new mongoose.Schema({
+//   title: {
+//     type: String,
+//     required: true,
+//   },
+//   sections: [sectionSchema],
+// });
+
+// const CarreraUcasal = mongoose.model("CarreraUcasal", carreraSchema, "carreras_ucasal");
+
+// export default CarreraUcasal;
+import mongoose from 'mongoose';
+
+const linksSchema = new mongoose.Schema({
   text: {
     type: String,
     required: true,
   },
-  href: {
-    type: String,
+  examen: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'ExamenUcasal', // Update the model name accordingly
     required: true,
   },
 });
@@ -19,7 +52,7 @@ const sectionSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  links: [linkSchema],
+  links: [linksSchema],
 });
 
 const carreraSchema = new mongoose.Schema({
@@ -30,6 +63,6 @@ const carreraSchema = new mongoose.Schema({
   sections: [sectionSchema],
 });
 
-const CarreraUcasal = mongoose.model("CarreraUcasal", carreraSchema, "carreras_ucasal");
+const CarreraUcasal = mongoose.model('CarreraUcasal', carreraSchema, 'carreras_ucasal'); // Update the model name accordingly
 
 export default CarreraUcasal;

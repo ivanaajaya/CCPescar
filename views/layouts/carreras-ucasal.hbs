@@ -10,14 +10,14 @@
     <div id="sections-placeholder">
         {{#each carrerasUcasal}}
             <div class="carrera" id="{{title.toLowerCase}}-carrera">
-                <h1>{{title}}</h1>
+                <h1>{{this.title}}</h1>
                 <div class="contenedor-secciones">
                     {{#each sections}}
                         <section class="anio">
-                            <h2>{{title}}</h2>
+                            <h2>{{this.title}}</h2>
                             <ul>
                                 {{#each links}}
-                                    <li><a href="{{href}}">{{text}}</a></li>
+                                    <li><a href="/examenes-ucasal/carrera/{{this.examen}}" >{{this.text}}</a></li>
                                 {{/each}}
                             </ul>
                         </section>

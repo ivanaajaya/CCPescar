@@ -1,55 +1,77 @@
 [{
   "_id": {
-    "$oid": "657651c413c143fd664892f5"
+    "$oid": "6574cb7e19f0717a85403a75"
   },
-  "title": "INGENIERIA EN INFORMATICA",
+  "title": "INGENIERIA EN INFORMATICA ",
   "sections": [
     {
       "title": "Primer año",
       "links": [
         {
-          "text": "Filosofía",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=filosofia.json"
+          "text": "Filosofia ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Algebra lineal I ",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraI.json"
+          "examen": {
+            "$oid": "658392b346aed974c7e6e3d3"
+          }
         },
         {
-          "text": "Analisis matematico I",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_I.json"
+          "text": "Analisis Matematico I ",
+          "examen": {
+            "$oid": "658392b346aed974c7e6e3d4"
+          }
         },
         {
-          "text": "Quimica para ingenieros",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=quimica.json"
+          "text": "Quimica para ingenieros ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fundamInform.json"
+          "text": "Fundamentos de informatica ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Prueba de suficiencia en comunicacion oral y escrita",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=sufOralEsc.json"
+          "text": "Prueba de suficiencia en comunicacion oral y escrita ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Prueba de suficiencia de idioma inglés",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=ingles.json"
+          "text": "Prueba de suficiencia de idioma ingles ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Algebra lineal II",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=algebraII.json"
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Analisis matematico II ",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=AMI_II.json"
+          "text": "Analisis Matematico II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Introduccion a la Informatica",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=introdInfo.json"
+          "text": "introduccion a la informatica",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "FISICA I",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-informatica&materia=fisicaI.json"
+          "text": "Fisica I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -57,60 +79,88 @@
       "title": "Segundo año",
       "links": [
         {
-          "text": "Teología",
-          "href": ""
-        },
-        {
           "text": "Estructura de datos y algoritmos",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Arquitectura de computadores",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Analisis matemático III",
-          "href": ""
+          "text": "Analisis matematico III",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Lenguajes I",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Física II",
-          "href": ""
+          "text": "Fisica II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Economia de la empresa",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Probabilidad y estadistica I",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Calculo avanzado",
-          "href": ""
+          "text": "Calculo Avanzado",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Lenguajes II",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Sistemas I",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Introducción a los sistemas operativos",
-          "href": ""
+          "text": "Introduccion a los sistemas operativos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Fisica aplicada",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Economia y finanzas",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Probabilidad y estadistica II",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -118,101 +168,141 @@
       "title": "Tercer año",
       "links": [
         {
-          "text": "Sistemas Operativos",
-          "href": ""
+          "text": "Sistemas operativos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Sistemas II",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Redes I",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Doctrina social de la iglesia",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Analisis Numerico",
-          "href": ""
+          "text": "Analisis numerico",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Lenguajes III",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Bases de datos II",
-          "href": ""
+          "text": "Bases de datos I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Proyectos Informaticos I",
-          "href": ""
-        },
-        {
-          "text": "Practica profesional supervisada técnico",
-          "href": ""
+          "text": "Proyectos informaticos I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Etica profesional",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Lenguajes IV",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Bases de datos II",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Proyectos Informaticos I",
-          "href": ""
+          "text": "Proyectos informaticos II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Higiene y seguridad",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
     {
-      "title": "cuarto año",
+      "title": "Cuarto año",
       "links": [
         {
-          "text": "Ingenieria de Software",
-          "href": ""
+          "text": "Ingenieria de software",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Sistemas III",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Redes II",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Bases de datos III",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Investigación Operativa I",
-          "href": ""
+          "text": "Investigacion operativa I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Direccion de proyectos",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Compiladores",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Analisis de datos",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Investigación Operativa II",
-          "href": ""
+          "text": "Investigacion operativa II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -221,51 +311,69 @@
       "links": [
         {
           "text": "Modelos y simulacion",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Sistemas Inteligentes",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Auditoria de sistemas",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Tecnicas avanzadas de analisis de datos",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Recursos Humanos",
-          "href": ""
+          "text": "Recursos humanos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Ingenieria legal",
-          "href": ""
-        },
-        {
-          "text": "Practica profesional supervisada Ingeniero",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Proyecto de grado",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Seguridad Informática",
-          "href": ""
+          "text": "Seguridad informatica",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Estrategia e Informática",
-          "href": ""
+          "text": "Estrategia e informatica",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Redes III",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
           "text": "Legislacion informatica",
-          "href": ""
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     }
@@ -273,7 +381,7 @@
 },
 {
   "_id": {
-    "$oid": "657651c413c143fd664892f6"
+    "$oid": "6574cb7e19f0717a85403a76"
   },
   "title": "INGENIERIA EN TELECOMUNICACIONES",
   "sections": [
@@ -281,12 +389,76 @@
       "title": "Primer año",
       "links": [
         {
-          "text": "Sistemas de Representacion",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-telecom&materia=sistemRepres.json"
+          "text": "Filosofia ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Introduccion a la programacion",
-          "href": "plantilla_MatDoc.html?carrera=ingenieria-telecom&materia=introdProgram.json"
+          "text": "Algebra lineal I ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Analisis Matematico I ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Quimica para ingenieros ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Fundamentos de informatica ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Prueba de suficiencia en comunicacion oral y escrita ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Prueba de suficiencia de idioma ingles ",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Algebra lineal II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Analisis Matematico II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "introduccion a la programacion",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Fisica I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Sistemas de representacion",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -294,24 +466,88 @@
       "title": "Segundo año",
       "links": [
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Teologia",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Estructura de datos y algoritmos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Arquitectura de computadores",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Analisis matematico III",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Lenguajes",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Fisica II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Economia de la empresa",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Probabilidad y estadistica I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Analisis Matematico IV",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Comunicaciones basicas",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Programacion aplicada",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Fisica III",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Economia y finanzas",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Probabilidad y estadistica II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -319,24 +555,76 @@
       "title": "Tercer año",
       "links": [
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "propagacion y radiacion electromagnetica",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Redes I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Doctrina social de la iglesia",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Analisis numerico",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Sistemas y señales",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "teoria de circuitos I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Sistemas operativos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Etica profesional",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "redes II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "electronica I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "teoria de circuitos II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "teoria de la informacion y comunicacion",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -344,24 +632,82 @@
       "title": "Cuarto año",
       "links": [
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "medidas electricas y electronicas",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "comunicaciones digitales",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "sistemas de comunicaciones",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "gestion de proyectos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Investigacion operativa I",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "electronica II",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "antenas",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "sistemas de conmutacion",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "sistemas de transmision",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "tecnicas digitales",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "redes III",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "sistemas inalambricos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "Higiene y seguridad",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     },
@@ -369,49 +715,76 @@
       "title": "Quinto año",
       "links": [
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "sistemas de telecomunicaciones",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Sistemas de ayuda a la navegacion",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "seguridad y criptografia",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Recursos humanos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
-        }
-      ]
-    },
-    {
-      "title": "Material Adicional",
-      "links": [
-        {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Ingenieria legal",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "comunicaciones moviles",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "medios opticos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "Proyecto de grado",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         },
         {
-          "text": "Fundamentos de Informatica",
-          "href": ""
+          "text": "redes inteligentes",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "sistemas de entornos",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "legislacion especifica",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
+        },
+        {
+          "text": "tv digital y procesamiento de imagenes",
+          "examen": {
+            "$oid": "657137e5319f66c8fc144bb0"
+          }
         }
       ]
     }

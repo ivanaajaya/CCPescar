@@ -15,6 +15,7 @@ import profesorRouter from './routes/profesoresRoute.js';
 import authRouter from './routes/authRoute.js';
 import cursoRouter from './routes/cursosRoute.js';
 import examenUnsaRouter from './routes/examenUnsaRouter.js';
+import examenUcasalRouter from './routes/examenUcasalRouter.js'
 /** DECLARACIONES */
 // Servidor BackEnd
 const app = express();
@@ -39,6 +40,7 @@ app.use("/", authRouter);
 app.use("/carreras-unsa", carreraUnsaRoutes );
 app.use("/carreras-ucasal", carreraUcasalRouter);
 app.use("/examenes-unsa", examenUnsaRouter);
+app.use("/examenes-ucasal", examenUcasalRouter);
 app.use("/profesores", profesorRouter );
 app.use("/cursos", cursoRouter);
 // Rutas Estaticas para el Frontend
